@@ -1,1 +1,1 @@
-**WORK IN PROGRESS**
+**This Week: Presentation of the Project Status by Students**

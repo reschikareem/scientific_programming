@@ -1,0 +1,7 @@
+The task for today:
+
+1.) Follow the instructions in the README.md file on GitHub to set up the course environment.
+
+    https://github.com/mario-gellrich-zhaw/scientific_programming.git
+
+2.) Solve the challenge in the folder Week_01/challenge.

@@ -1,0 +1,24 @@
+#------------------------------------------------------------------
+# Scientific Programming Challenge Week (02)
+#------------------------------------------------------------------
+
+Tasks (use Visual Studio Code and Jupyter Notebook in GitHub Codespaces):
+
+1.) Replace the kaggle.json File in this folder with your own one (see README.md).
+
+2.) Use the Kaggle Web API to download the Titanic data set.
+    Link: https://www.kaggle.com/datasets/yasserh/titanic-dataset?select=Titanic-Dataset.csv
+    To give you a hint:
+    dataset = yasserh/titanic-dataset
+    file_name = Titanic-Dataset.csv
+
+3.) Identify the data types in the Titanic data set.
+
+4.) Transform variable 'Sex' (Gender) to a two-column matrix with (0/1) values.
+
+5.) Create a subset of the Titanic data which includes:
+    - passengers which have survived AND
+    - female passengers which were older than 45 years OR 
+    - male passengers which were younger than 20 years
+
+6.) Answer the question: How many passengers were selected?

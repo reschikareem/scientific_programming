@@ -44,8 +44,14 @@
 # Operators and Expressions
 #-----------------------------------------------------------------------------
 
-1.) Run the Jupyter notebook 'operators_and_expressions.ipynb' step by step.
+1.) Make sure that in the file ./data/kaggle.json contains a valid user name and API-key.
+    You can get one with a Kaggle account from: https://www.kaggle.com/settings
+    Replace the "xxxxxxxxxxxxx" strings in the file with the user-name and API-key.
 
-2.) Check how much the Bic Mac prices in Switzerland have changed between 2002 and 2022.
+    {"username":"xxxxxxxxxxxxxxxxxx","key":"xxxxxxxxxxxxxxxxxxxxx"}
 
-3.) Is the Bic Mac price increase between 2002 and 2022 in Switzerland higher compared to the U.S.A.?
+2.) Run the Jupyter notebook 'operators_and_expressions.ipynb' step by step.
+
+3.) Check how much the Bic Mac prices in Switzerland have changed between 2002 and 2022.
+
+4.) Is the Bic Mac price increase between 2002 and 2022 in Switzerland higher compared to the U.S.A.?

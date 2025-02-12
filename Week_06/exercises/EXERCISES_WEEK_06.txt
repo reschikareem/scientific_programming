@@ -13,9 +13,13 @@
 
 2.) Open a new Terminal, start Ollama and list all available LLMs.
 
-3.) Import a small (< 4GB recommended) LLM from Ollama (https://ollama.com/search).
+    ollama serve
+    ollama list
 
 3.) Import the two LLMs: Llama2:latest (7B, 3.8GB) and Llama3.2:latest (3B, 2GB).
+    
+    ollama run llama2:latest
+    ollama run llama3.2:latest
 
 4.) Test the models in the VS Code Terminal.
 

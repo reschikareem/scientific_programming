@@ -4,4 +4,17 @@ The task for today:
 
     https://github.com/mario-gellrich-zhaw/scientific_programming.git
 
+    Checklist (make sure that everything has been set up correctly):
+    - GitHub account created
+    - Course repository forked
+    - GitHub Codespace created based on the fork
+    - all neccessary software and Python libraries are installed (see devcontainer.json & requirements.txt)
+    - Visual Studio Code settings made
+    - GitHub Copilot is running in Codespaces
+    - Kaggle API-key is available (needed in week 02)
+    - Ollama is properly installed (needed in week 06)
+
+
 2.) Solve the challenge in the folder Week_01/challenge.
+    
+    Note that the solutions to the tasks in the challenges will be provided the following week.

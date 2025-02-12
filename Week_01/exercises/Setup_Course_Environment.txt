@@ -8,7 +8,7 @@ The task for today:
     - GitHub account created
     - Course repository forked
     - GitHub Codespace created based on the fork
-    - all neccessary software and Python libraries are installed (see devcontainer.json & requirements.txt)
+    - All neccessary software and Python libraries are installed (see devcontainer.json & requirements.txt)
     - Visual Studio Code settings made
     - GitHub Copilot is running in Codespaces
     - Kaggle API-key is available (needed in week 02)

@@ -1,0 +1,55 @@
+ _______   _______  ___________  _____ _____ _____ _____ _____ 
+|  ___\ \ / /  __ \|  ___| ___ \/  __ \_   _/  ___|  ___/  ___|
+| |__  \ V /| /  \/| |__ | |_/ /| /  \/ | | \ `--.| |__ \ `--. 
+|  __| /   \| |    |  __||    / | |     | |  `--. \  __| `--. \
+| |___/ /^\ \ \__/\| |___| |\ \ | \__/\_| |_/\__/ / |___/\__/ /
+\____/\/   \/\____/\____/\_| \_| \____/\___/\____/\____/\____/ 
+
+#----------------------------------------------------------------------
+# Ollama and LLMs
+#----------------------------------------------------------------------
+
+1.) Make sure the machine type of your GitHub Codespaces environment is >= 16GB.
+
+2.) Open a new Terminal, start Ollama and list all available LLMs.
+
+3.) Import a small (< 4GB recommended) LLM from Ollama (https://ollama.com/search).
+
+3.) Import the two LLMs: Llama2:latest (7B, 3.8GB) and Llama3.2:latest (3B, 2GB).
+
+4.) Test the models in the VS Code Terminal.
+
+#----------------------------------------------------------------------
+# Ollama, LLMs & Python
+#----------------------------------------------------------------------
+
+1.) Run the Jupyter notebook 'ollama_llms.ipynb' step by step.
+
+2.) Modify the example request.
+
+3.) Change the LLM and check the performance and quality of the response.
+
+4.) Does it work well? Any issues?
+
+#----------------------------------------------------------------------
+# Text-to-SQL with LangChain
+#----------------------------------------------------------------------
+
+1.) Run the Jupyter notebook 'text_to_sql.ipynb' step by step.
+
+2.) Use the SQL-agent to generate SQL-queries based on the following three questions:
+
+    - Which is the avarage apartment price by rooms?
+    - Which are the 5 cheapest apartments?
+    - Which are the 5 apartments with the largest area? Show
+      only the address, rooms, area and price of these apartments!
+
+#----------------------------------------------------------------------
+# Augmented analytics with GPT-3.5 and Python
+#----------------------------------------------------------------------
+
+1.) Run the Jupyter notebook 'augmented_analytics.ipynb' step by step.
+
+2.) Define own questions to generate Python code and data insights.
+
+3.) Which parts work well and which not? 

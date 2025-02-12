@@ -1,0 +1,2216 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.57 93a4d346",
+  "osm3s": {
+    "timestamp_osm_base": "2022-03-14T08:29:36Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 270803077,
+  "lat": 47.3707416,
+  "lon": 8.5418077,
+  "tags": {
+    "name": "Café Wühre",
+    "operator": "Oro de Cacao AG",
+    "shop": "chocolate",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 274824641,
+  "lat": 47.3689582,
+  "lon": 8.5413011,
+  "tags": {
+    "addr:city": "Zürich",
+    "addr:country": "CH",
+    "addr:housenumber": "16",
+    "addr:postcode": "8001",
+    "addr:street": "Fraumünsterstrasse",
+    "brand": "Lidl",
+    "brand:wikidata": "Q151954",
+    "brand:wikipedia": "en:Lidl",
+    "name": "Lidl",
+    "opening_hours": "Mo-Sa 08:00-21:00",
+    "shop": "supermarket",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 306480499,
+  "lat": 47.3696993,
+  "lon": 8.5389136,
+  "tags": {
+    "name": "k kiosk Padadeplatz",
+    "operator": "Valora",
+    "shop": "kiosk",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 605267838,
+  "lat": 47.3696839,
+  "lon": 8.5388404,
+  "tags": {
+    "level": "0",
+    "name": "VBZ Ticketeria Paradeplatz",
+    "opening_hours": "Mo-Fr 08:00-18:30; Sa 09:00-17:00",
+    "shop": "ticket"
+  }
+},
+{
+  "type": "node",
+  "id": 633678264,
+  "lat": 47.3709326,
+  "lon": 8.5431891,
+  "tags": {
+    "addr:city": "Zürich",
+    "addr:country": "CH",
+    "addr:housenumber": "1",
+    "addr:postcode": "8001",
+    "addr:street": "Rüdenplatz",
+    "alt_name": "Claire's Limmatquai",
+    "branch": "Zürich Limmatquai",
+    "brand": "Claire's",
+    "brand:wikidata": "Q2974996",
+    "level": "0",
+    "name": "Claire's",
+    "opening_hours": "Mo-Th 09:00-19:00; Fr 09:00-20:00; Sa 10:00-18:00",
+    "opening_hours:covid19": "Mo-Sa 10:00-18:30;PH closed",
+    "operator": "Claire's Switzerland",
+    "shop": "jewelry",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 648907100,
+  "lat": 47.3694816,
+  "lon": 8.5391402,
+  "tags": {
+    "addr:city": "Zürich",
+    "addr:country": "CH",
+    "addr:housenumber": "21",
+    "addr:postcode": "8001",
+    "addr:street": "Bahnhofstrasse",
+    "alt_name": "Sprüngli Paradeplatz",
+    "branch": "Zürich Paradeplatz",
+    "brand": "Sprüngli",
+    "brand:wikidata": "Q692605",
+    "name": "Sprüngli",
+    "name:ru": "Кондитерская Sprüngli Paradeplatz",
+    "opening_hours": "Mo-Fr 07:30-18:00, Sa 08:30-18:00",
+    "operator": "Confiserie Sprüngli",
+    "shop": "pastry",
+    "website": "https://www.spruengli.ch/de/standorte/paradeplatz-hauptsitz.html",
+    "wheelchair": "yes",
+    "wikidata": "Q692605"
+  }
+},
+{
+  "type": "node",
+  "id": 1110775411,
+  "lat": 47.3711844,
+  "lon": 8.5389625,
+  "tags": {
+    "addr:city": "Zürich",
+    "addr:housenumber": "36",
+    "addr:postcode": "8001",
+    "addr:street": "Bahnhofstrasse",
+    "branch": "Zürich",
+    "name": "Gübelin",
+    "operator": "Gübelin",
+    "shop": "jewelry",
+    "website": "https://www.gubelin.com/",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 1115159227,
+  "lat": 47.3704110,
+  "lon": 8.5388340,
+  "tags": {
+    "name": "La Serlas",
+    "shop": "jewelry",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 1115159231,
+  "lat": 47.3709662,
+  "lon": 8.5385962,
+  "tags": {
+    "addr:city": "Zürich",
+    "addr:country": "CH",
+    "addr:housename": "Orell-Füssli-Hof",
+    "addr:housenumber": "31",
+    "addr:postcode": "8001",
+    "addr:street": "Bahnhofstrasse",
+    "name": "Breguet",
+    "opening_hours": "Mo-Fr 09:30-18:30; Sa 09:30-17:00",
+    "shop": "watches",
+    "website": "https://www.breguet.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 1115159281,
+  "lat": 47.3705497,
+  "lon": 8.5391484,
+  "tags": {
+    "name": "Louis Vuitton",
+    "shop": "clothes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 1115159302,
+  "lat": 47.3702371,
+  "lon": 8.5388934,
+  "tags": {
+    "name": "Montblanc",
+    "shop": "jewelry",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 1115159334,
+  "lat": 47.3693513,
+  "lon": 8.5387309,
+  "tags": {
+    "addr:city": "Zürich",
+    "addr:housenumber": "4",
+    "addr:postcode": "8001",
+    "addr:street": "Paradeplatz",
+    "alt_name": "Hackett Zürich",
+    "branch": "Zürich",
+    "name": "Hackett",
+    "opening_hours": "Mo-Fr 10:00-18:30; Sa 10:00-18:00",
+    "shop": "clothes",
+    "website": "https://stores.hackett.com/en/hackett-zurich",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 1115159339,
+  "lat": 47.3701362,
+  "lon": 8.5389271,
+  "tags": {
+    "brand": "Ermenegildo Zegna",
+    "brand:wikidata": "Q1355904",
+    "brand:wikipedia": "en:Ermenegildo Zegna",
+    "clothes": "men",
+    "name": "Ermenegildo Zegna",
+    "shop": "clothes",
+    "short_name": "Zegna",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 1115159350,
+  "lat": 47.3693865,
+  "lon": 8.5387976,
+  "tags": {
+    "addr:city": "Zürich",
+    "addr:country": "CH",
+    "addr:housenumber": "3",
+    "addr:postcode": "8001",
+    "addr:street": "Paradeplatz",
+    "alt_name": "Blue Lemon Zürich",
+    "branch": "Zürich",
+    "name": "Blue Lemon",
+    "opening_hours": "Mo-Fr 09:00-19:00; Sa 09:00-18:00",
+    "operator": "Blue Lemon",
+    "shop": "boutique",
+    "website": "https://www.bluelemon.ch/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 1115159408,
+  "lat": 47.3705573,
+  "lon": 8.5387797,
+  "tags": {
+    "addr:city": "Zürich",
+    "addr:housenumber": "25",
+    "addr:postcode": "8001",
+    "addr:street": "Bahnhofstrasse",
+    "check_date": "2017-06-11",
+    "name": "Bulgari",
+    "shop": "jewelry",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 1115159424,
+  "lat": 47.3703268,
+  "lon": 8.5392307,
+  "tags": {
+    "name": "Grieder",
+    "shop": "clothes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 1115159470,
+  "lat": 47.3706359,
+  "lon": 8.5391260,
+  "tags": {
+    "name": "TOOS",
+    "shop": "shoes",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 1115159474,
+  "lat": 47.3694112,
+  "lon": 8.5388610,
+  "tags": {
+    "addr:city": "Zürich",
+    "addr:housenumber": "3",
+    "addr:postcode": "8001",
+    "addr:street": "Paradeplatz",
+    "brand": "Davidoff of Geneva",
+    "name": "Zigarren Dürr",
+    "opening_hours": "Mo-Fr 10:00-18:00; Sa 10:00-16:00",
+    "shop": "tobacco"
+  }
+},
+{
+  "type": "node",
+  "id": 1115159478,
+  "lat": 47.3707661,
+  "lon": 8.5386347,
+  "tags": {
+    "addr:city": "Zürich",
+    "addr:country": "CH",
+    "addr:housename": "Orell-Füssli-Hof",
+    "addr:housenumber": "31",
+    "addr:postcode": "8001",
+    "addr:street": "Bahnhofstrasse",
+    "name": "Beyer Uhren & Juwelen",
+    "opening_hours": "Mo-Fr 09:30-18:30; Sa 09:30-16:00",
+    "operator": "Beyer Chronometrie",
+    "shop": "jewelry",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 1393977663,
+  "lat": 47.3704160,
+  "lon": 8.5411621,
+  "tags": {
+    "addr:housenumber": "16",
+    "addr:street": "Münsterhof",
+    "contact:phone": "+41 44 211 55 50",
+    "contact:website": "http://www.sibler.com/",
+    "level": "0",
+    "name": "Sibler",
+    "opening_hours": "Mo-Fr 10:00-19:00; Sa 10:00-18:00",
+    "shop": "houseware",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 1756956245,
+  "lat": 47.3702516,
+  "lon": 8.5371556,
+  "tags": {
+    "addr:city": "Zürich",
+    "addr:country": "CH",
+    "addr:housenumber": "16",
+    "addr:postcode": "8001",
+    "addr:street": "Bärengasse",
+    "alt_name": "Coop Bärengasse",
+    "branch": "Zürich Bärengasse",
+    "brand": "Coop",
+    "brand:wikidata": "Q432564",
+    "brand:wikipedia": "de:Coop (Schweiz)",
+    "name": "Coop",
+    "opening_hours": "Mo-Fr 07:00-20:00; Sa 07:00-17:00",
+    "operator": "Coop Genossenschaft",
+    "shop": "supermarket",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2896982378,
+  "lat": 47.3683574,
+  "lon": 8.5371852,
+  "tags": {
+    "level": "0",
+    "name": "Exceptis",
+    "opening_hours": "Mo-Fr 10:00-18:00; Sa 10:00-16:00; PH closed",
+    "shop": "bed",
+    "website": "http://www.exceptis.ch/",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 2896982383,
+  "lat": 47.3685484,
+  "lon": 8.5369731,
+  "tags": {
+    "addr:city": "Zürich",
+    "addr:housenumber": "10",
+    "addr:postcode": "8002",
+    "addr:street": "Bleicherweg",
+    "alt_name": "Jung Paradeplatz",
+    "branch": "Zürich Bleicherweg",
+    "email": "bleichi10@jung.ag",
+    "name": "Jung",
+    "opening_hours": "Mo-Fr 06:30-18:30",
+    "operator": "Jung & Jung",
+    "phone": "+41 44 201 06 66",
+    "shop": "bakery",
+    "website": "http://www.jung.ag/"
+  }
+},
+{
+  "type": "node",
+  "id": 2896982387,
+  "lat": 47.3685770,
+  "lon": 8.5370377,
+  "tags": {
+    "name": "Viva",
+    "shop": "shoes"
+  }
+},
+{
+  "type": "node",
+  "id": 3561119042,
+  "lat": 47.3702564,
+  "lon": 8.5413006,
+  "tags": {
+    "level": "0",
+    "name": "Leder Locher",
+    "opening_hours": "Mo-Fr 09:30-18:30; Sa 09:30-18:00; PH closed",
+    "opening_hours:covid19": "open",
+    "shop": "bag",
+    "website": "http://www.tasche-lederlocher.ch/",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 3561463029,
+  "lat": 47.3708128,
+  "lon": 8.5415137,
+  "tags": {
+    "level": "0",
+    "name": "Beatrice Rossi",
+    "shop": "jewelry",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3561463032,
+  "lat": 47.3710781,
+  "lon": 8.5416275,
+  "tags": {
+    "level": "0",
+    "name": "Jil Sander",
+    "shop": "clothes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3561463033,
+  "lat": 47.3706719,
+  "lon": 8.5413056,
+  "tags": {
+    "clothes": "underwear",
+    "level": "0",
+    "name": "La Perla",
+    "shop": "clothes",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 3561463034,
+  "lat": 47.3708518,
+  "lon": 8.5412519,
+  "tags": {
+    "level": "0",
+    "name": "Les Millionaires",
+    "opening_hours": "Tu-Fr 10:00-18:30; Sa 10:00-18:00; PH closed",
+    "shop": "clothes",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 3561463035,
+  "lat": 47.3707584,
+  "lon": 8.5413569,
+  "tags": {
+    "name": "Moncler",
+    "shop": "clothes",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 3561463036,
+  "lat": 47.3710238,
+  "lon": 8.5413691,
+  "tags": {
+    "level": "0",
+    "name": "Hermetise",
+    "shop": "beauty",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 3561463037,
+  "lat": 47.3706061,
+  "lon": 8.5412879,
+  "tags": {
+    "level": "0",
+    "name": "Mulberry",
+    "opening_hours": "Mo-Fr 09:30-18:30, Sa 10:00-17:00",
+    "shop": "clothes",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 3561463038,
+  "lat": 47.3707350,
+  "lon": 8.5412049,
+  "tags": {
+    "level": "0",
+    "name": "Aqua di Parma",
+    "shop": "shoes",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 3561463039,
+  "lat": 47.3703508,
+  "lon": 8.5416287,
+  "tags": {
+    "level": "0",
+    "name": "Pedro Sanchez",
+    "opening_hours": "Mo-We 09:00-19:00; Th-Fr 10:00-20:00; Sa 09:00-17:00; PH closed",
+    "phone": "+41 43 544 88 60",
+    "shop": "hairdresser",
+    "unisex": "yes",
+    "website": "https://pedrosanchez.ch",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 3561463040,
+  "lat": 47.3709682,
+  "lon": 8.5415193,
+  "tags": {
+    "alt_name": "Rasor Shop",
+    "name": "Ritschard AG",
+    "opening_hours": "Tu-Fr 10:00-13:30, 14:00-18:30; Sa 10:00-17:00; PH off",
+    "shop": "chemist;shaving",
+    "website": "http://www.rasorshop.ch/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3561463041,
+  "lat": 47.3709587,
+  "lon": 8.5415174,
+  "tags": {
+    "level": "1",
+    "name": "Roman K",
+    "opening_hours": "Mo-Fr 09:00-18:30; Sa 09:00-16:00; PH closed",
+    "phone": "+41 44 210 10 81",
+    "shop": "hairdresser",
+    "unisex": "yes",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 3561463043,
+  "lat": 47.3711034,
+  "lon": 8.5414279,
+  "tags": {
+    "level": "0",
+    "name": "Tabak-Lädeli",
+    "opening_hours": "Mo-Fr 10:00-18:30, Sa 10:00-16:30; PH closed",
+    "shop": "tobacco",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 3561463044,
+  "lat": 47.3706555,
+  "lon": 8.5411738,
+  "tags": {
+    "addr:city": "Zürich",
+    "addr:housenumber": "9",
+    "addr:postcode": "8001",
+    "addr:street": "Storchengasse",
+    "branch": "Zürich Münsterhof",
+    "level": "0",
+    "name": "Teuscher",
+    "opening_hours": "Mo-Fr 09:00-19:00, Sa 12:00-18:00, Su 13:00-18:00",
+    "opening_hours:covid19": "Mo-Sa 08:00-18:00; Su off",
+    "operator": "Confiserie Teuscher",
+    "shop": "confectionery",
+    "website": "https://www.teuscher-zurich.ch/",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 3561463046,
+  "lat": 47.3703787,
+  "lon": 8.5413056,
+  "tags": {
+    "level": "0",
+    "name": "Tom Ford",
+    "shop": "clothes",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 3561463047,
+  "lat": 47.3711495,
+  "lon": 8.5414381,
+  "tags": {
+    "level": "0",
+    "name": "Niessing",
+    "opening_hours": "Mo-Sa 10:00-18:00; PH closed",
+    "shop": "jewelry",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 3561463049,
+  "lat": 47.3709441,
+  "lon": 8.5413243,
+  "tags": {
+    "level": "0",
+    "name": "von Laack",
+    "opening_hours": "Mo-Fr 10:00-18:30; Sa 10:00-18:00; PH closed",
+    "opening_hours:covid19": "Mo-Fr 11:00-18:00; Sa 10:00-17:00; PH closed",
+    "shop": "clothes",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 3645707794,
+  "lat": 47.3707487,
+  "lon": 8.5411341,
+  "tags": {
+    "name": "Vainard",
+    "shop": "jewelry",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 3645708305,
+  "lat": 47.3702751,
+  "lon": 8.5404207,
+  "tags": {
+    "name": "Franz Marfurt",
+    "shop": "jewelry"
+  }
+},
+{
+  "type": "node",
+  "id": 3645780594,
+  "lat": 47.3702045,
+  "lon": 8.5396981,
+  "tags": {
+    "addr:city": "Zürich",
+    "addr:country": "CH",
+    "addr:housenumber": "28a",
+    "addr:postcode": "8001",
+    "addr:street": "Bahnhofstrasse",
+    "alt_name": "Hermes",
+    "name": "Hermès",
+    "opening_hours": "Mo-Fr 10:00-19:00; Sa 09:30-17:00",
+    "shop": "clothes",
+    "website": "http://de.stores.hermes.com/Europa/Schweiz/Zuerich/Hermes-Zuerich-Bahnhofstrasse"
+  }
+},
+{
+  "type": "node",
+  "id": 3645780693,
+  "lat": 47.3703113,
+  "lon": 8.5408292,
+  "tags": {
+    "level": "0",
+    "name": "MCM",
+    "opening_hours": "Mo-Fr 09:00-18:30; Sa 10:00-18:00; PH closed",
+    "shop": "bag",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3645780793,
+  "lat": 47.3703434,
+  "lon": 8.5409922,
+  "tags": {
+    "level": "0",
+    "name": "Messerer",
+    "opening_hours": "Mo-Fr 09:00-12:30,13:30-18:00; Sa 10:00-16:00; PH closed",
+    "shop": "jewelry",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 3645808579,
+  "lat": 47.3708384,
+  "lon": 8.5410621,
+  "tags": {
+    "name": "Doris Binder",
+    "shop": "jewelry"
+  }
+},
+{
+  "type": "node",
+  "id": 3645808582,
+  "lat": 47.3706659,
+  "lon": 8.5409937,
+  "tags": {
+    "name": "Régine Giroud",
+    "shop": "jewelry",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3645808584,
+  "lat": 47.3706632,
+  "lon": 8.5409229,
+  "tags": {
+    "level": "0",
+    "name": "Faktor Zeit",
+    "opening_hours": "Mo-Fr 10:30-18:30; Sa 10:00-16:00; PH closed",
+    "shop": "watches"
+  }
+},
+{
+  "type": "node",
+  "id": 3645808585,
+  "lat": 47.3707629,
+  "lon": 8.5410315,
+  "tags": {
+    "name": "Le Boudoir",
+    "shop": "clothes"
+  }
+},
+{
+  "type": "node",
+  "id": 3646091695,
+  "lat": 47.3696149,
+  "lon": 8.5404408,
+  "tags": {
+    "level": "0",
+    "name": "Zwicker",
+    "opening_hours": "Mo-Fr 08:30-18:30; Sa 08:30-17:00; PH closed",
+    "shop": "optician",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 3646100095,
+  "lat": 47.3697862,
+  "lon": 8.5399492,
+  "tags": {
+    "name": "anne fontaine",
+    "shop": "clothes",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 3646106094,
+  "lat": 47.3699088,
+  "lon": 8.5394656,
+  "tags": {
+    "addr:city": "Zürich",
+    "addr:country": "CH",
+    "addr:housenumber": "28",
+    "addr:place": "Paradeplatz",
+    "addr:postcode": "8001",
+    "addr:street": "Bahnhofstrasse",
+    "alt_name": "Marsano Paradeplatz",
+    "branch": "Zürich Paradeplatz",
+    "name": "Marsano",
+    "opening_hours": "Mo-Fr 09:00-18:00, Sa 09:00-17:00; PH off",
+    "operator": "Marsano",
+    "shop": "florist",
+    "website": "https://marsano.ch/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3646121693,
+  "lat": 47.3701679,
+  "lon": 8.5400868,
+  "tags": {
+    "name": "samina",
+    "shop": "bed"
+  }
+},
+{
+  "type": "node",
+  "id": 3646121694,
+  "lat": 47.3701675,
+  "lon": 8.5399885,
+  "tags": {
+    "name": "transit",
+    "shop": "clothes",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 3646121893,
+  "lat": 47.3698178,
+  "lon": 8.5394822,
+  "tags": {
+    "addr:city": "Zürich",
+    "addr:country": "CH",
+    "addr:housenumber": "28",
+    "addr:postcode": "8001",
+    "addr:street": "Bahnhofstrasse",
+    "name": "Harry Winston",
+    "shop": "jewelry",
+    "website": "http://www.harrywinston.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 3646121993,
+  "lat": 47.3694988,
+  "lon": 8.5396034,
+  "tags": {
+    "level": "0",
+    "name": "Love Piana",
+    "opening_hours": "Mo-Fr 10:00-19:00; Sa 10:00-18:00; PH closed",
+    "shop": "clothes",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 3646121994,
+  "lat": 47.3695736,
+  "lon": 8.5401941,
+  "tags": {
+    "brand": "Gucci",
+    "brand:wikidata": "Q178516",
+    "brand:wikipedia": "en:Gucci",
+    "name": "Gucci",
+    "shop": "clothes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3646122093,
+  "lat": 47.3697853,
+  "lon": 8.5400108,
+  "tags": {
+    "level": "0",
+    "name": "Ogier",
+    "opening_hours": "Mo-Fr 10:30-18:30; Sa 11:00-18:00; PH closed",
+    "shop": "clothes",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 3646122193,
+  "lat": 47.3697913,
+  "lon": 8.5401041,
+  "tags": {
+    "addr:city": "Zürich",
+    "addr:housenumber": "10",
+    "addr:postcode": "8001",
+    "addr:street": "Poststrasse",
+    "level": "0",
+    "name": "Landolt-Arbenz",
+    "opening_hours:covid19": "Tu-Fr 10:00-18:00;Sa 10:00-17:00",
+    "operator": "Landolt-Arbenz",
+    "shop": "stationery",
+    "website": "https://landolt-arbenz.ch/",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 3646122293,
+  "lat": 47.3698025,
+  "lon": 8.5401911,
+  "tags": {
+    "name": "Elsässer",
+    "shop": "hairdresser",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3646122393,
+  "lat": 47.3698294,
+  "lon": 8.5403980,
+  "tags": {
+    "level": "0",
+    "name": "Meng Cutlery",
+    "opening_hours": "Mo-Fr 10:00-18:30, Sa 10:00-17:00",
+    "shop": "gift",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3646122394,
+  "lat": 47.3698481,
+  "lon": 8.5405189,
+  "tags": {
+    "addr:city": "Zürich",
+    "addr:country": "CH",
+    "addr:housenumber": "4",
+    "addr:postcode": "8001",
+    "addr:street": "Poststrasse",
+    "level": "0",
+    "name": "Remida Tornaghi",
+    "opening_hours": "Mo 14:00-18:30; Tu-Fr 10:30-18:30; Sa 10:30-18:00; PH closed",
+    "phone": "+41 44 211 20 00",
+    "shop": "jewelry",
+    "website": "https://www.remidatornaghi.com/",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 3646146897,
+  "lat": 47.3708929,
+  "lon": 8.5386235,
+  "tags": {
+    "name": "Patek Philippe",
+    "shop": "watches"
+  }
+},
+{
+  "type": "node",
+  "id": 3646146898,
+  "lat": 47.3700206,
+  "lon": 8.5389642,
+  "tags": {
+    "name": "Giorgio Armani",
+    "shop": "clothes"
+  }
+},
+{
+  "type": "node",
+  "id": 3646149907,
+  "lat": 47.3708075,
+  "lon": 8.5390520,
+  "tags": {
+    "name": "Audemars Piguet",
+    "shop": "jewelry"
+  }
+},
+{
+  "type": "node",
+  "id": 3646149912,
+  "lat": 47.3707527,
+  "lon": 8.5390762,
+  "tags": {
+    "name": "Jaeger-LeCoultre",
+    "shop": "jewelry"
+  }
+},
+{
+  "type": "node",
+  "id": 3646154694,
+  "lat": 47.3703213,
+  "lon": 8.5388672,
+  "tags": {
+    "name": "Bottega Veneta",
+    "shop": "clothes"
+  }
+},
+{
+  "type": "node",
+  "id": 4237319706,
+  "lat": 47.3693291,
+  "lon": 8.5396602,
+  "tags": {
+    "brand": "Tommy Hilfiger",
+    "brand:wikidata": "Q634881",
+    "brand:wikipedia": "en:Tommy Hilfiger (company)",
+    "level": "0",
+    "name": "Tommy Hilfiger",
+    "opening_hours": "Mo-Fr 10:00-19:00; Sa 10:00-18:00; PH closed",
+    "shop": "clothes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 4237319802,
+  "lat": 47.3687326,
+  "lon": 8.5398984,
+  "tags": {
+    "addr:city": "Zürich",
+    "addr:housenumber": "18",
+    "addr:postcode": "8001",
+    "addr:street": "Bahnhofstrasse",
+    "branch": "Zürich Bahnhofstrasse",
+    "clothes": "men;women",
+    "level": "0",
+    "name": "Trois Pommes",
+    "opening_hours": "Mo-Fr 10:00-19:00; Sa 10:00-18:00",
+    "opening_hours:url": "http://www.troispommes.ch/zurich1",
+    "phone": "+41 44 211 09 43",
+    "shop": "clothes",
+    "website": "http://www.troispommes.ch/",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 4237330898,
+  "lat": 47.3690650,
+  "lon": 8.5392477,
+  "tags": {
+    "addr:city": "Zürich",
+    "addr:housenumber": "17",
+    "addr:postcode": "8001",
+    "addr:street": "Bahnhofstrasse",
+    "email": "info@osswald.ch",
+    "level": "0",
+    "name": "Parfumerie Osswald",
+    "opening_hours": "Mo-Fr 9:00-18:30; Sa 10:00-17:00 \"Parfumerie\" || Mo-Fr 9:00-18:30; Sa 9:00-16:00 \"Spa\"",
+    "phone": "+41 44 211 20 30",
+    "shop": "cosmetics",
+    "website": "https://osswald.ch/"
+  }
+},
+{
+  "type": "node",
+  "id": 4237331292,
+  "lat": 47.3689006,
+  "lon": 8.5393210,
+  "tags": {
+    "brand": "Dior",
+    "brand:wikidata": "Q542767",
+    "brand:wikipedia": "en:Dior",
+    "level": "0",
+    "name": "Dior",
+    "shop": "clothes"
+  }
+},
+{
+  "type": "node",
+  "id": 4237331397,
+  "lat": 47.3691481,
+  "lon": 8.5397297,
+  "tags": {
+    "level": "0",
+    "name": "Gross",
+    "opening_hours": "Mo-Fr 10:00-18:30; Sa 10:00-17:00; PH closed",
+    "shop": "clothes",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 4237331691,
+  "lat": 47.3689921,
+  "lon": 8.5397981,
+  "tags": {
+    "level": "0",
+    "name": "Bally",
+    "shop": "clothes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 4237342389,
+  "lat": 47.3689668,
+  "lon": 8.5392822,
+  "tags": {
+    "brand": "Rolex",
+    "brand:wikidata": "Q62288",
+    "brand:wikipedia": "en:Rolex",
+    "name": "Rolex",
+    "shop": "watches"
+  }
+},
+{
+  "type": "node",
+  "id": 4237342490,
+  "lat": 47.3683817,
+  "lon": 8.5399775,
+  "tags": {
+    "brand": "Tiffany & Company",
+    "brand:wikidata": "Q1066858",
+    "brand:wikipedia": "en:Tiffany & Co.",
+    "level": "0",
+    "name": "Tiffany & Company",
+    "official_name": "Tiffany & Co.",
+    "shop": "jewelry",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 4237342493,
+  "lat": 47.3682660,
+  "lon": 8.5400103,
+  "tags": {
+    "addr:city": "Zürich",
+    "addr:housenumber": "12",
+    "addr:postcode": "8001",
+    "addr:street": "Bahnhofstrasse",
+    "brand": "Versace",
+    "brand:wikidata": "Q696376",
+    "brand:wikipedia": "en:Versace",
+    "email": "versace.zurichbahnhofstrasse@ch.versace.com",
+    "level": "0",
+    "name": "Versace",
+    "phone": "+41 44 508 72 82",
+    "shop": "clothes",
+    "website": "https://boutiques.versace.com/eu/de/schweiz/zurich/bahnhofstrasse-12",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 4237346694,
+  "lat": 47.3684560,
+  "lon": 8.5399339,
+  "tags": {
+    "level": "0",
+    "name": "Stefano Ricci",
+    "shop": "jewelry",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 4237346696,
+  "lat": 47.3685318,
+  "lon": 8.5394718,
+  "tags": {
+    "addr:city": "Zürich",
+    "addr:country": "CH",
+    "addr:housenumber": "11",
+    "addr:postcode": "8001",
+    "addr:street": "Bahnhofstrasse",
+    "alt_name": "KochOptik Bahnhofstrasse",
+    "branch": "Zürich Bahnhofstrasse",
+    "brand": "KochOptik",
+    "name": "Kochoptik",
+    "opening_hours": "Mo-Fr 09:00-18:30; Sa 09:00-16:00",
+    "operator": "Kochoptik",
+    "shop": "optician",
+    "website": "https://kochoptik.ch/"
+  }
+},
+{
+  "type": "node",
+  "id": 4237346697,
+  "lat": 47.3685701,
+  "lon": 8.5398938,
+  "tags": {
+    "level": "0",
+    "name": "Graff",
+    "opening_hours": "Mo-Fr 10:00-18:30; Sa 10:00-17:00",
+    "shop": "jewelry",
+    "website": "https://www.graff.com/",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 4237351289,
+  "lat": 47.3688273,
+  "lon": 8.5393512,
+  "tags": {
+    "addr:country": "CH",
+    "addr:housenumber": "13",
+    "addr:street": "Bahnhofstrasse",
+    "alt_name": "Yves Saint Laurent",
+    "brand": "Saint Laurent",
+    "brand:wikidata": "Q2282172",
+    "brand:wikipedia": "en:Yves Saint Laurent (brand)",
+    "name": "Saint Laurent",
+    "opening_hours": "Mo-Fr 09:30-19:00; Sa 09:00-17:00",
+    "shop": "clothes",
+    "short_name": "YSL"
+  }
+},
+{
+  "type": "node",
+  "id": 4237356992,
+  "lat": 47.3690224,
+  "lon": 8.5403968,
+  "tags": {
+    "addr:city": "Zürich",
+    "addr:housenumber": "14",
+    "addr:postcode": "8001",
+    "addr:street": "Kappelergasse",
+    "description": "Schilder, Stempel, Folienbeschriftungen, Beschriftungsprofile",
+    "name": "schori - Stempel + Gravuren",
+    "opening_hours": "Mo-Fr 09:00-12:30,13:30-16:30",
+    "phone": "+41 44 211 27 86",
+    "shop": "hardware",
+    "website": "https://www.schori.com/",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 4237357494,
+  "lat": 47.3689967,
+  "lon": 8.5401375,
+  "tags": {
+    "level": "0",
+    "name": "Timeless Watches Gallery",
+    "opening_hours": "Tu-Fr 14:00-18:00; Sa 12:00-15:00; PH closed",
+    "shop": "watches",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 4237367650,
+  "lat": 47.3683461,
+  "lon": 8.5408517,
+  "tags": {
+    "level": "0",
+    "name": "Loretta Moor",
+    "opening_hours": "Tu-Fr 11:00-18:00; Sa 11:00-16:00; PH closed",
+    "shop": "clothes",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 4237367655,
+  "lat": 47.3684534,
+  "lon": 8.5408359,
+  "tags": {
+    "level": "0",
+    "name": "zülle Coiffure",
+    "opening_hours": "Mo-Fr 08:00-18:30; Sa 08:00-16:00; PH closed",
+    "shop": "hairdresser",
+    "unisex": "yes",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 4237403875,
+  "lat": 47.3688832,
+  "lon": 8.5407225,
+  "tags": {
+    "level": "0",
+    "name": "Caspar",
+    "opening_hours": "Mo 12:00-16:00; Tu-Fr 09:00-17:30; Sa 10:00-17:00; PH closed",
+    "shop": "interior_decoration",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 4237403876,
+  "lat": 47.3685343,
+  "lon": 8.5408062,
+  "tags": {
+    "email": "adiwyss@msn.com",
+    "fax": "+41 44 211 95 61",
+    "name": "Adi Wyss Audio",
+    "opening_hours": "Mo-Fr 09:00-12:00,14:00-18:30; Sa 09:00-16:00; PH closed",
+    "phone": "+41 44 211 95 60",
+    "shop": "hifi",
+    "website": "http://www.adiwyss.ch/",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 4237421790,
+  "lat": 47.3687942,
+  "lon": 8.5400213,
+  "tags": {
+    "email": "zurich@kiton.it",
+    "level": "0",
+    "name": "Kiton",
+    "opening_hours": "Mo-Fr 10:00-18:00; Sa 10:00-17:00; PH closed",
+    "phone": "+41 44 212 26 36",
+    "shop": "clothes",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 4237421991,
+  "lat": 47.3683419,
+  "lon": 8.5384141,
+  "tags": {
+    "check_date": "2017-06-11",
+    "level": "0",
+    "name": "wohnbedarf",
+    "opening_hours": "Mo-Fr 09:00-18:30; Sa 10:00-17:00; PH off",
+    "shop": "furniture",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 4237433958,
+  "lat": 47.3688564,
+  "lon": 8.5403453,
+  "tags": {
+    "contact:facebook": "https://fr-fr.facebook.com/ericbompard",
+    "contact:instagram": "http://instagram.com/ericbompard/",
+    "contact:twitter": "https://twitter.com/ericbompard",
+    "level": "0",
+    "name": "Eric Bompard",
+    "opening_hours": "Mo-Fr 09:30-18:30, Sa 10:00-18:00; Su closed",
+    "opening_hours:url": "https://www.eric-bompard.com/fr/boutique-vetement-cachemire/eric-bompard-zurich-7.html",
+    "phone": "+41 43 497 39 13",
+    "shop": "clothes",
+    "website": "https://www.eric-bompard.com",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 4237433960,
+  "lat": 47.3688900,
+  "lon": 8.5405713,
+  "tags": {
+    "level": "0",
+    "name": "Coiffeur Sonia",
+    "opening_hours": "Mo 10:00-18:00; Tu-Fr 09:00-18:30; Sa 09:30-16:00; PH closed",
+    "shop": "hairdresser",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 4237433961,
+  "lat": 47.3688787,
+  "lon": 8.5404658,
+  "tags": {
+    "email": "info-zuerich@fischbacher.ch",
+    "fax": "+41 44 212 22 76",
+    "name": "Christian Fischbacher",
+    "opening_hours": "Mo-Fr 10:00-18:00; Sa 10:00-16:00; PH closed",
+    "phone": "+41 44 211 57 47",
+    "shop": "boutique",
+    "website": "https://www.fischbacher.com/",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 4237457391,
+  "lat": 47.3687371,
+  "lon": 8.5378785,
+  "tags": {
+    "addr:city": "Zürich",
+    "addr:housenumber": "5",
+    "addr:postcode": "8001",
+    "addr:street": "Bleicherweg",
+    "alt_name": "Nespresso Boutique Bleicherweg",
+    "branch": "Zürich Bleicherweg",
+    "brand": "Nespresso",
+    "brand:wikidata": "Q301301",
+    "level": "0",
+    "name": "Nespresso Boutique",
+    "opening_hours": "Mo-Fr 09:00-19:00,Sa 09:00-18:00;PH off",
+    "operator": "Nestlé Nespresso",
+    "shop": "coffee",
+    "website": "https://www.nespresso.com/ch/de/"
+  }
+},
+{
+  "type": "node",
+  "id": 4237460094,
+  "lat": 47.3688460,
+  "lon": 8.5383656,
+  "tags": {
+    "level": "0",
+    "name": "Brogues",
+    "shop": "shoes"
+  }
+},
+{
+  "type": "node",
+  "id": 4237460195,
+  "lat": 47.3690190,
+  "lon": 8.5377883,
+  "tags": {
+    "level": "0",
+    "name": "Lalique",
+    "shop": "boutique"
+  }
+},
+{
+  "type": "node",
+  "id": 4237467990,
+  "lat": 47.3686963,
+  "lon": 8.5378037,
+  "tags": {
+    "addr:housenumber": "5",
+    "addr:street": "Bleicherweg",
+    "level": "0",
+    "name": "Nielsen Optik",
+    "opening_hours": "Tu-Fr 09:00-18:30; Sa 09:00-16:00; PH closed",
+    "operator": "Nielsen Optik",
+    "shop": "optician",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 4237468717,
+  "lat": 47.3694260,
+  "lon": 8.5405232,
+  "tags": {
+    "name": "Christophe Graber",
+    "shop": "jewelry",
+    "website": "http://christophegraber.com/",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 4237468720,
+  "lat": 47.3692174,
+  "lon": 8.5405893,
+  "tags": {
+    "level": "0",
+    "name": "The House Donna",
+    "shop": "boutique",
+    "website": "http://www.donnalesboutiques.com/",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 4237477691,
+  "lat": 47.3689897,
+  "lon": 8.5382263,
+  "tags": {
+    "addr:city": "Zürich",
+    "addr:housenumber": "3",
+    "addr:postcode": "8001",
+    "addr:street": "Bleicherweg",
+    "clothes": "women",
+    "level": "0",
+    "name": "Madame",
+    "opening_hours": "Mo-Fr 09:30-18:30; Sa 09:30-17:00; PH off",
+    "operator": "Madame grosse Grössen AG",
+    "shop": "clothes",
+    "website": "http://madame.ch/"
+  }
+},
+{
+  "type": "node",
+  "id": 4239866442,
+  "lat": 47.3689463,
+  "lon": 8.5377072,
+  "tags": {
+    "level": "0",
+    "name": "Marina Rinaldi",
+    "shop": "boutique"
+  }
+},
+{
+  "type": "node",
+  "id": 4741926252,
+  "lat": 47.3702558,
+  "lon": 8.5407007,
+  "tags": {
+    "name": "Issey Miyake",
+    "opening_hours": "Mo-Fr 10:00-18:30; Sa 10:00-17:00; PH closed",
+    "shop": "clothes",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 4833061644,
+  "lat": 47.3711694,
+  "lon": 8.5432159,
+  "tags": {
+    "addr:city": "Zürich",
+    "addr:country": "CH",
+    "addr:housenumber": "48",
+    "addr:postcode": "8001",
+    "addr:street": "Limmatquai",
+    "alt_name": "H&M Limmatquai",
+    "branch": "Zürich Limmatquai",
+    "brand": "H&M",
+    "brand:wikidata": "Q188326",
+    "clothes": "women",
+    "name": "H&M",
+    "opening_hours": "Mo-Fr 11:00-19:00; Sa 10:00-18:00",
+    "operator": "H&M Hennes & Mauritz",
+    "shop": "clothes",
+    "website": "https://www2.hm.com/de_ch/",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 4841796175,
+  "lat": 47.3682951,
+  "lon": 8.5364096,
+  "tags": {
+    "addr:city": "Zürich",
+    "addr:country": "CH",
+    "addr:housenumber": "18",
+    "addr:postcode": "8002",
+    "addr:street": "Bleicherweg",
+    "alt_name": "Gidor Bleicherweg",
+    "branch": "Zürich Bleicherweg",
+    "brand": "Gidor",
+    "name": "Gidor",
+    "opening_hours": "Mo-Fr 08:30-19:00; Sa 09:00-16:00",
+    "operator": "Gidor",
+    "shop": "hairdresser",
+    "website": "https://www.gidor.ch/filiale/zuerich-bleicherweg/"
+  }
+},
+{
+  "type": "node",
+  "id": 4848816878,
+  "lat": 47.3701971,
+  "lon": 8.5372350,
+  "tags": {
+    "addr:city": "Zürich",
+    "addr:country": "CH",
+    "addr:housenumber": "16",
+    "addr:postcode": "8001",
+    "addr:street": "Bärengasse",
+    "name": "k kiosk Bärengasse",
+    "operator": "Valora",
+    "shop": "kiosk"
+  }
+},
+{
+  "type": "node",
+  "id": 4857867466,
+  "lat": 47.3711680,
+  "lon": 8.5385213,
+  "tags": {
+    "addr:city": "Zürich",
+    "addr:country": "CH",
+    "addr:housenumber": "33",
+    "addr:postcode": "8001",
+    "addr:street": "Bahnhofstrasse",
+    "level": "2",
+    "name": "Meister Uhren",
+    "opening_hours": "Mo-Fr 09:30-18:30; Sa 10:00-17:00",
+    "shop": "watches",
+    "website": "https://www.meister-uhren.ch/"
+  }
+},
+{
+  "type": "node",
+  "id": 4908912448,
+  "lat": 47.3702590,
+  "lon": 8.5381672,
+  "tags": {
+    "name": "Fabric Frontline",
+    "opening_hours": "Mo-Fr 10:00-18:30,Sa 10:00-17:00;PH off",
+    "shop": "clothes"
+  }
+},
+{
+  "type": "node",
+  "id": 4908912449,
+  "lat": 47.3704293,
+  "lon": 8.5379469,
+  "tags": {
+    "clothes": "men",
+    "level": "0",
+    "name": "Edo Popken",
+    "opening_hours": "Tu-Fr 10:00-18:00,Sa 10:30-17:00;PH off",
+    "shop": "clothes"
+  }
+},
+{
+  "type": "node",
+  "id": 4908912450,
+  "lat": 47.3703795,
+  "lon": 8.5378585,
+  "tags": {
+    "name": "Hieronymus",
+    "opening_hours": "Mo-Fr 10:00-19:00,Sa 10:00-17:00;PH off",
+    "shop": "stationery"
+  }
+},
+{
+  "type": "node",
+  "id": 4908912451,
+  "lat": 47.3705118,
+  "lon": 8.5380943,
+  "tags": {
+    "clothes": "women;underwear",
+    "name": "Agent Provocateur",
+    "shop": "clothes"
+  }
+},
+{
+  "type": "node",
+  "id": 4908912452,
+  "lat": 47.3706586,
+  "lon": 8.5383975,
+  "tags": {
+    "level": "0",
+    "name": "Aux arts du feu",
+    "shop": "kitchen"
+  }
+},
+{
+  "type": "node",
+  "id": 4908912453,
+  "lat": 47.3706029,
+  "lon": 8.5382983,
+  "tags": {
+    "addr:city": "Zürich",
+    "addr:housenumber": "4",
+    "addr:postcode": "8001",
+    "addr:street": "Bärengasse",
+    "alt_name": "Aesop Bärengasse",
+    "branch": "Zürich Bärengasse",
+    "brand": "Aēsop",
+    "brand:wikidata": "Q4688560",
+    "name": "Aesop",
+    "opening_hours": "Mo-Fr 10:00-19:00,Sa 10:00-18:00;PH off",
+    "operator": "Aesop Switzerland",
+    "shop": "cosmetics",
+    "website": "https://www.aesop.com/ch/de/"
+  }
+},
+{
+  "type": "node",
+  "id": 4908912454,
+  "lat": 47.3706965,
+  "lon": 8.5384457,
+  "tags": {
+    "clothes": "women;men",
+    "level": "0",
+    "name": "Paul & Shark",
+    "opening_hours": "Mo-Fr 09:30-18:30,Sa 09:30-17:00;PH off",
+    "shop": "clothes"
+  }
+},
+{
+  "type": "node",
+  "id": 4908912455,
+  "lat": 47.3704736,
+  "lon": 8.5380233,
+  "tags": {
+    "clothes": "women",
+    "level": "0",
+    "name": "Zadig&Voltaire",
+    "shop": "clothes"
+  }
+},
+{
+  "type": "node",
+  "id": 4908968393,
+  "lat": 47.3705319,
+  "lon": 8.5369268,
+  "tags": {
+    "clothes": "women;men",
+    "level": "0",
+    "name": "DeeCee style",
+    "opening_hours": "Mo-We 10:00-19:00,Sa 09:00-17:00;PH off;Th 10:00-20:00;Fr 10:00-19:00",
+    "shop": "clothes",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 4908968396,
+  "lat": 47.3707912,
+  "lon": 8.5371828,
+  "tags": {
+    "clothes": "women",
+    "level": "0",
+    "name": "Vestibule",
+    "opening_hours": "Mo-Fr 10:00-19:00, Sa 10:00-18:00; PH off",
+    "shop": "clothes",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 4908968400,
+  "lat": 47.3704095,
+  "lon": 8.5375903,
+  "tags": {
+    "level": "0",
+    "name": "Vidal",
+    "opening_hours": "Mo-Fr 09:00-18:30,Sa 09:00-16:00;PH off",
+    "shop": "interior_decoration"
+  }
+},
+{
+  "type": "node",
+  "id": 4908968409,
+  "lat": 47.3708892,
+  "lon": 8.5368732,
+  "tags": {
+    "level": "0",
+    "name": "Nail Bar",
+    "shop": "beauty",
+    "website": "https://thenailbar.ch"
+  }
+},
+{
+  "type": "node",
+  "id": 4908968410,
+  "lat": 47.3710562,
+  "lon": 8.5366511,
+  "tags": {
+    "level": "0",
+    "name": "Paul Ullrich AG",
+    "opening_hours": "Tu,We,Fr 09:30-18:30; Sa 09:30-17:30; Th 09:30-20:00",
+    "shop": "alcohol",
+    "website": "https://ullrich.ch/"
+  }
+},
+{
+  "type": "node",
+  "id": 4908968411,
+  "lat": 47.3706241,
+  "lon": 8.5367713,
+  "tags": {
+    "clothes": "women",
+    "level": "0",
+    "name": "Peter Hahn",
+    "opening_hours": "Mo-Fr 09:00-18:30,Sa 09:00-16:00;PH off",
+    "shop": "clothes",
+    "website": "https://www.peterhahn.ch/",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 4909023748,
+  "lat": 47.3704310,
+  "lon": 8.5361242,
+  "tags": {
+    "addr:city": "Zürich",
+    "addr:country": "CH",
+    "addr:housenumber": "58",
+    "addr:postcode": "8001",
+    "addr:street": "Talstrasse",
+    "level": "0",
+    "name": "Wax in the City",
+    "opening_hours": "Mo-Fr 10:30-20:00,Sa 09:30-18:00;PH off",
+    "phone": "+41 44 222 26 00",
+    "shop": "beauty",
+    "website": "https://www.wax-in-the-city.com/waxing-zuerich-kreis-1"
+  }
+},
+{
+  "type": "node",
+  "id": 4909023749,
+  "lat": 47.3705418,
+  "lon": 8.5359303,
+  "tags": {
+    "level": "0",
+    "name": "Blumen Krämer",
+    "opening_hours": "Mo-Fr 07:30-18:30,Sa 08:30-17:00;PH off",
+    "shop": "florist"
+  }
+},
+{
+  "type": "node",
+  "id": 4909023753,
+  "lat": 47.3703758,
+  "lon": 8.5362095,
+  "tags": {
+    "clothes": "men",
+    "level": "0",
+    "name": "AP&CO",
+    "opening_hours": "Mo-Fr 10:00-19:00,Sa 10:00-17:00;PH off",
+    "shop": "clothes"
+  }
+},
+{
+  "type": "node",
+  "id": 4909023758,
+  "lat": 47.3691731,
+  "lon": 8.5374021,
+  "tags": {
+    "level": "3",
+    "name": "Koetser Gallery",
+    "shop": "art"
+  }
+},
+{
+  "type": "node",
+  "id": 4935627390,
+  "lat": 47.3708831,
+  "lon": 8.5415151,
+  "tags": {
+    "addr:city": "Zürich",
+    "addr:country": "CH",
+    "addr:housenumber": "12",
+    "addr:postcode": "8001",
+    "addr:street": "Storchengasse",
+    "level": "0",
+    "name": "Valentino",
+    "shop": "boutique",
+    "website": "https://www.valentino.com/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 5201535170,
+  "lat": 47.3710702,
+  "lon": 8.5374083,
+  "tags": {
+    "level": "0",
+    "name": "Christian Felix",
+    "opening_hours": "Mo-Fr 08:30-18:30;Sa 09:45-17:00;PH closed",
+    "shop": "florist",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 5201535171,
+  "lat": 47.3709923,
+  "lon": 8.5374617,
+  "tags": {
+    "clothes": "children;men",
+    "level": "0",
+    "name": "Dulli de Naissus",
+    "opening_hours": "Mo-Fr 10:00-18:00;Sa 10:00-16:00;PH closed",
+    "shop": "clothes",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 5229152876,
+  "lat": 47.3711145,
+  "lon": 8.5411178,
+  "tags": {
+    "name": "Max Chocolatier",
+    "opening_hours": "Tu-Fr 10:30-19:00; Sa 10:00-17:30",
+    "shop": "chocolate",
+    "website": "https://www.maxchocolatier.com/de/"
+  }
+},
+{
+  "type": "node",
+  "id": 5287545168,
+  "lat": 47.3701859,
+  "lon": 8.5402646,
+  "tags": {
+    "name": "maud",
+    "opening_hours": "Mo-Fr 10:00-18:30; Sa 10:00-17:00",
+    "shop": "clothes",
+    "website": "http://www.maud.ch"
+  }
+},
+{
+  "type": "node",
+  "id": 5590507838,
+  "lat": 47.3709050,
+  "lon": 8.5380825,
+  "tags": {
+    "addr:city": "Zürich",
+    "addr:country": "CH",
+    "addr:housenumber": "11",
+    "addr:postcode": "8001",
+    "addr:street": "St. Peterstrasse",
+    "alt_name": "Varibelle Zürich",
+    "branch": "Zürich City",
+    "brand": "Varibelle",
+    "fixme": "survey required, exact location TBD",
+    "name": "Coiffure Varibelle",
+    "opening_hours": "Mo-Fr 09:00-18:30; Sa 09:00-17:00",
+    "operator": "Varibelle",
+    "phone": "+41 44 211 55 85",
+    "shop": "hairdresser",
+    "unisex": "yes",
+    "website": "https://www.varibelle.ch/coiffeur-zuerich"
+  }
+},
+{
+  "type": "node",
+  "id": 5892893022,
+  "lat": 47.3705125,
+  "lon": 8.5412697,
+  "tags": {
+    "level": "0",
+    "name": "Curtain Cushion Comfort",
+    "opening_hours": "Tu-Fr 10:00-18:00; Sa 10:00-17:00; PH closed",
+    "shop": "curtain",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 5892893023,
+  "lat": 47.3709394,
+  "lon": 8.5417960,
+  "tags": {
+    "name": "Galerie Katharina Büttiker",
+    "shop": "art",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 5892893024,
+  "lat": 47.3706405,
+  "lon": 8.5415501,
+  "tags": {
+    "level": "0",
+    "name": "A.C.Bang",
+    "opening_hours": "PH closed;Mo-Fr 09:00-18:00; Sa 10:00-17:00",
+    "operator": "M",
+    "shop": "boutique",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 5892893025,
+  "lat": 47.3709801,
+  "lon": 8.5413560,
+  "tags": {
+    "level": "0",
+    "name": "apm Monaco",
+    "shop": "jewelry",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 5892893026,
+  "lat": 47.3706765,
+  "lon": 8.5418247,
+  "tags": {
+    "level": "0",
+    "name": "Ludwig Reiter",
+    "opening_hours": "Tu-Fr 10:00-18:30; Sa 10:00-17:00; PH closed; Mo 13:00-18:30",
+    "shop": "shoes",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 5893259529,
+  "lat": 47.3705536,
+  "lon": 8.5418481,
+  "tags": {
+    "level": "0",
+    "name": "Christian Louboutin",
+    "opening_hours": "Mo-Fr 10:00-19:00; Sa 10:00-18:00; PH closed",
+    "shop": "shoes",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 5894419990,
+  "lat": 47.3683492,
+  "lon": 8.5365357,
+  "tags": {
+    "name": "second time around",
+    "second_hand": "only",
+    "shop": "clothes"
+  }
+},
+{
+  "type": "node",
+  "id": 5894419991,
+  "lat": 47.3683848,
+  "lon": 8.5366239,
+  "tags": {
+    "name": "La Casa del Habano",
+    "opening_hours": "Mo-Fr 10:00-18:30; Sa 10:00-16:00; PH closed",
+    "shop": "tobacco"
+  }
+},
+{
+  "type": "node",
+  "id": 6017322747,
+  "lat": 47.3686615,
+  "lon": 8.5394314,
+  "tags": {
+    "name": "Chloé",
+    "shop": "bag"
+  }
+},
+{
+  "type": "node",
+  "id": 6390582469,
+  "lat": 47.3697601,
+  "lon": 8.5395319,
+  "tags": {
+    "addr:city": "Zürich",
+    "addr:housenumber": "28",
+    "addr:postcode": "8001",
+    "addr:street": "Bahnhofstrasse",
+    "name": "Blancpain",
+    "shop": "watches",
+    "website": "https://www.blancpain.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 6969339954,
+  "lat": 47.3694294,
+  "lon": 8.5396183,
+  "tags": {
+    "name": "Jimmy Choo",
+    "opening_hours:signed": "no",
+    "shop": "shoes"
+  }
+},
+{
+  "type": "node",
+  "id": 7025401577,
+  "lat": 47.3687874,
+  "lon": 8.5407251,
+  "tags": {
+    "level": "2",
+    "name": "Türler",
+    "shop": "jewelry"
+  }
+},
+{
+  "type": "node",
+  "id": 7815426572,
+  "lat": 47.3708022,
+  "lon": 8.5412317,
+  "tags": {
+    "level": "0",
+    "name": "Golden Goose",
+    "opening_hours": "Tu-Fr 09:30-18:30; Sa 09:30-18:00; PH closed",
+    "shop": "boutique",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 7815426574,
+  "lat": 47.3705993,
+  "lon": 8.5409970,
+  "tags": {
+    "level": "0",
+    "name": "Zadig & Voltair",
+    "shop": "boutique",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 7897260113,
+  "lat": 47.3695124,
+  "lon": 8.5398467,
+  "tags": {
+    "brand": "Hermès",
+    "brand:wikidata": "Q843887",
+    "brand:wikipedia": "en:Hermès",
+    "name": "Hermès",
+    "shop": "clothes"
+  }
+},
+{
+  "type": "node",
+  "id": 8259265199,
+  "lat": 47.3696066,
+  "lon": 8.5403352,
+  "tags": {
+    "name": "Queen's Five",
+    "opening_hours": "Mo-Fr 10:30-18:30; Sa 10:00-17:30; PH closed",
+    "shop": "interior_decoration",
+    "website": "https://queensfive.com/",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 8381866160,
+  "lat": 47.3689318,
+  "lon": 8.5382747,
+  "tags": {
+    "addr:city": "Zürich",
+    "addr:housenumber": "20",
+    "addr:postcode": "8001",
+    "addr:street": "Talstrasse",
+    "beauty": "nails;cosmetics;spa;skin_care;waxing;hair_removal;pedicure;eyebrow;cosmetic_studio;eyelash;massage;laser_hair_removal;foot;skin",
+    "name": "BeautyLook",
+    "opening_hours": "Mo-Sa 09:30-20:00",
+    "opening_hours:covid19": "open",
+    "payment:bitcoin": "yes",
+    "payment:cash": "yes",
+    "payment:coins": "yes",
+    "payment:credit_cards": "yes",
+    "payment:cryptocurrencies": "yes",
+    "payment:debit_cards": "yes",
+    "payment:maestro": "yes",
+    "payment:mastercard": "yes",
+    "phone": "+41775070699",
+    "shop": "beauty"
+  }
+},
+{
+  "type": "node",
+  "id": 9082108331,
+  "lat": 47.3699141,
+  "lon": 8.5406340,
+  "tags": {
+    "level": "0",
+    "name": "Galerie Adrienne Desbiolles",
+    "opening_hours": "Mo-Fr 10:30-18:30; Sa 11:00-16:00; PH closed",
+    "shop": "art",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 9082108332,
+  "lat": 47.3697391,
+  "lon": 8.5396636,
+  "tags": {
+    "level": "0",
+    "name": "Schoggibar",
+    "opening_hours": "Mo-Fr 11:00-18:00; Sa 10:00-17:00; PH closed",
+    "shop": "chocolate",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 9082253392,
+  "lat": 47.3690150,
+  "lon": 8.5403205,
+  "tags": {
+    "beauty": "hair_removal;skin_care",
+    "level": "0",
+    "name": "Babor Institut",
+    "opening_hours": "Mo-We,Fr 09:00-19:00; Th 09:00-20:00; Sa 09:00-17:00; PH closed",
+    "shop": "beauty",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 9082270597,
+  "lat": 47.3684480,
+  "lon": 8.5416371,
+  "tags": {
+    "level": "0",
+    "name": "Ineichen Zürich",
+    "opening_hours": "Tu-Fr 10:00-19:00; Sa 10:00-16:00; PH closed",
+    "shop": "watches",
+    "website": "https://ineichen.com/",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 9082270601,
+  "lat": 47.3699865,
+  "lon": 8.5415910,
+  "tags": {
+    "level": "0",
+    "name": "Oscar R. Steffen",
+    "opening_hours": "Tu-Fr 11:00-18:30; Sa 10:00-16:00; PH closed",
+    "shop": "jewelry",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 9082270602,
+  "lat": 47.3699791,
+  "lon": 8.5417829,
+  "tags": {
+    "level": "0",
+    "name": "Stoffels Optik",
+    "shop": "optician",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 9082340500,
+  "lat": 47.3703193,
+  "lon": 8.5409368,
+  "tags": {
+    "level": "0",
+    "name": "Anna & Line Paris",
+    "shop": "boutique",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 9082340501,
+  "lat": 47.3699836,
+  "lon": 8.5417934,
+  "tags": {
+    "level": "0",
+    "name": "Stoffels Optik",
+    "opening_hours": "Mo-Fr 10:00-18:30; Sa 10:00-17:00; PH closed",
+    "shop": "optician",
+    "website": "https://stoffelsoptik.ch/"
+  }
+}
+
+  ]
+}

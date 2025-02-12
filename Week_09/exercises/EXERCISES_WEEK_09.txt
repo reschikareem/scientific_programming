@@ -1,0 +1,98 @@
+ _______   _______  ___________  _____ _____ _____ _____ _____ 
+|  ___\ \ / /  __ \|  ___| ___ \/  __ \_   _/  ___|  ___/  ___|
+| |__  \ V /| /  \/| |__ | |_/ /| /  \/ | | \ `--.| |__ \ `--. 
+|  __| /   \| |    |  __||    / | |     | |  `--. \  __| `--. \
+| |___/ /^\ \ \__/\| |___| |\ \ | \__/\_| |_/\__/ / |___/\__/ /
+\____/\/   \/\____/\____/\_| \_| \____/\___/\____/\____/\____/ 
+
+#----------------------------------------------------------------------
+# OOP examples with Python: Working with classes and methods in Python
+#----------------------------------------------------------------------
+
+1.) Run the Jupyter notebook 'object_oriented_programming_OOP_Python.ipynb' step 
+    by step and try to understand what the Python code does. Read the explanations 
+    in the Jupyter notebook. The goal is that you know and understand the following
+    terms & concepts:
+    - class
+    - encapsulation
+    - polymorphism
+    - inheritance
+    - abstraction
+    - method
+    - @classmethod
+    - @staticmethod
+    - the role of '__init__()'
+    - the role of 'super()' (returns an object representing the parent class)
+    - the role of 'self'
+    - class variables versus instance variables
+    - class attributes versus instance attributes
+    - parameters in classes and methods
+
+2.) Consider the following Vehicle class:
+
+    class Vehicle:
+        # Class variables
+        num_wheels = 4
+        num_doors = 4
+        print(f"The car has {num_wheels} wheels and {num_doors} doors.")
+
+        def __init__(self, make, model, type):
+            # Instance variables
+            self.make = make
+            self.model = model
+            self.type = type
+            self.fuel = 20
+            self.total_fuel_added = 0
+
+        # Method 
+        def drive(self):
+            print(f'The {self.make} {self.model} is now driving.')
+
+        # Method
+        def add_fuel(self, amount):
+            self.fuel += amount
+            self.total_fuel_added += amount
+
+    From your knowledge from the lessons and the examples in the Jupyter 
+    notebook above, try the following:
+        - create a new object (= instance of the Vehicle class):
+        - access the attribute values 'make', 'model' and 'type' 
+        - modify the attribute 'fuel' directly
+        - call the .drive() method
+        - call the .add_fuel() method at least two times
+        - create a ElectricVehicle class that inherits from the Vehicle class
+        - use the ElectricVehicle child class to demonstrate the overriding of 
+          parent methods
+
+#----------------------------------------------------------------------
+# OOP examples with Python: Reinforcement learning
+#----------------------------------------------------------------------
+
+1.) Run the Jupyter notebook 'reinforcement_learning.ipynb' step by step.
+
+3.) In this agent-based model example, we have two different classes:
+
+    - State class
+    - Agent class
+
+    The core element of this simulation is how agents learn to find the optimal path
+    in a grid environment to earn as much rewards as possible. This is explained in detail here:
+    https://towardsdatascience.com/reinforcement-learning-implement-grid-world-from-scratch-c5963765ebff
+    
+
+2.) Change the model parameters in the Jupyter notebook. Look at how 
+    the results of the model change depending on the parameter settings.
+	
+#----------------------------------------------------------------------
+# OOP examples with Python: Animations
+#----------------------------------------------------------------------
+
+Note that these exercises must be accomplished on your local computer!
+
+1.) Run the Jupyter notebook 'turtle_race_OOP_example_Python.ipynb' step 
+    by step. In class, we will make a deep dive into this OOP example 
+    and discuss single code lines.
+
+2.) Use the Turtle race example and add additional turtles. Note that, currently, 
+    you must make changes of the position of text and lenght of the finish-lines
+    by hand, if you add additional turtles.

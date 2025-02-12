@@ -1,0 +1,38 @@
+ _______   _______  ___________  _____ _____ _____ _____ _____ 
+|  ___\ \ / /  __ \|  ___| ___ \/  __ \_   _/  ___|  ___/  ___|
+| |__  \ V /| /  \/| |__ | |_/ /| /  \/ | | \ `--.| |__ \ `--. 
+|  __| /   \| |    |  __||    / | |     | |  `--. \  __| `--. \
+| |___/ /^\ \ \__/\| |___| |\ \ | \__/\_| |_/\__/ / |___/\__/ /
+\____/\/   \/\____/\____/\_| \_| \____/\___/\____/\____/\____/ 
+
+#-----------------------------------------------------------------------------
+# Input & Output in Python
+#-----------------------------------------------------------------------------
+
+1.) Run the Jupyter notebook 'input_and_output_Python.ipynb' step by step.
+
+2.) Read the data from the sheet 'cars' in the file 'car_dealer_data.xlsx' in the data folder and store it in a pandas data frame.
+
+3.) Write Python code to show the dimensions of the data frame and select only BMW cars.
+	
+#-----------------------------------------------------------------------------
+# Formatting Strings & Working with Dates in Python
+#-----------------------------------------------------------------------------
+
+1.) Run the Jupyter notebook 'formatting_strings_and_dates_Python.ipynb' step by step.
+
+2.) Change the format of the column 'SaleDate' of the table 'Sales' in the cars data to 'datetime' with "%Y-%m-%d".
+
+3.) Calculate the date difference between the formatted 'SaleDate' and the today's date.
+
+#----------------------------------------------------------------------
+# Writing and Querying SQLite Databases with Python
+#----------------------------------------------------------------------
+
+1.) Run the Jupyter notebook 'working_with_sqlite_databases.ipynb' step by step.
+
+2.) Create a connection to the SQLite database 'car_dealer_data.db' in the data folder.
+
+3.) Write an SQL statement to select prices >= 10,000 USD and store the result in a pandas data frame.
+
+4.) Create a histogram of the selected prices.

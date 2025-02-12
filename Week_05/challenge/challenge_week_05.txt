@@ -1,0 +1,25 @@
+ _____  _   _   ___   _      _      _____ _   _ _____  _____ 
+/  __ \| | | | / _ \ | |    | |    |  ___| \ | |  __ \|  ___|
+| /  \/| |_| |/ /_\ \| |    | |    | |__ |  \| | |  \/| |__  
+| |    |  _  ||  _  || |    | |    |  __|| . ` | | __ |  __| 
+| \__/\| | | || | | || |____| |____| |___| |\  | |_\ \| |___ 
+ \____/\_| |_/\_| |_/\_____/\_____/\____/\_| \_/\____/\____/ 
+                                                             
+                                                             
+Background:
+
+A real estate consulting company is interested in creating a data visualization 
+dashboard for analyzing apartment listings. They would like to display key performance 
+indicators (KPIs), such as the average price and average area of apartments, alongside 
+a graphical representation of the price distribution and a table with all data. The 
+company needs the dashboard to have an engaging design, including customized visuals 
+and a clean layout.
+
+1.) The data are provided in the file 'apartments_data_enriched_cleaned.csv'
+
+2.) Create a web application with flask and Python containing on one HTML-page:
+    - the average price and average area of apartments as KPIs
+    - a graphical representation of the price distribution
+    - a table with all apartment data
+
+3.) Run the web application on your local computer.

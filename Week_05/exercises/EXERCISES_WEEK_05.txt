@@ -1,0 +1,36 @@
+ _______   _______  ___________  _____ _____ _____ _____ _____ 
+|  ___\ \ / /  __ \|  ___| ___ \/  __ \_   _/  ___|  ___/  ___|
+| |__  \ V /| /  \/| |__ | |_/ /| /  \/ | | \ `--.| |__ \ `--. 
+|  __| /   \| |    |  __||    / | |     | |  `--. \  __| `--. \
+| |___/ /^\ \ \__/\| |___| |\ \ | \__/\_| |_/\__/ / |___/\__/ /
+\____/\/   \/\____/\____/\_| \_| \____/\___/\____/\____/\____/ 
+
+#----------------------------------------------------------------------
+# Vizualisations with matplotlib, seaborn und squarify
+#----------------------------------------------------------------------
+
+1.) Run the Jupyter notebook 'exploratory_data_analysis_car_data.ipynb' step by step.
+
+2.) Create a grouped boxplot with prices per make.
+
+3.) Create a bar chart showing mean prices per make.
+
+#----------------------------------------------------------------------
+# Vizualization of spatial data
+#----------------------------------------------------------------------
+
+1.) Run the Jupyter notebook 'exploring_spatial_data.ipynb' step by step.
+
+2.) Show the top 5 municipalities with the highest number of residents on a map.
+
+3.) Create a choropleth map with the percentage_foreigners.
+
+#----------------------------------------------------------------------
+# Vizualization of data with Flask and Python
+#----------------------------------------------------------------------
+
+1.) Open a new Terminal and cd into the folder 'flask_car_data_dashboard'.
+
+2.) Run the application by typing: python app.py
+
+3.) Extent the dashboard with two additional graphics of your choice.

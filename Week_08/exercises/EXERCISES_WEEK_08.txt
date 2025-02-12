@@ -1,0 +1,105 @@
+ _______   _______  ___________  _____ _____ _____ _____ _____ 
+|  ___\ \ / /  __ \|  ___| ___ \/  __ \_   _/  ___|  ___/  ___|
+| |__  \ V /| /  \/| |__ | |_/ /| /  \/ | | \ `--.| |__ \ `--. 
+|  __| /   \| |    |  __||    / | |     | |  `--. \  __| `--. \
+| |___/ /^\ \ \__/\| |___| |\ \ | \__/\_| |_/\__/ / |___/\__/ /
+\____/\/   \/\____/\____/\_| \_| \____/\___/\____/\____/\____/ 
+
+#----------------------------------------------------------------------
+# Procedural programming: Working with functions in Python
+#----------------------------------------------------------------------
+
+1.) Run the Jupyter notebook 'working_with_functions_Python.ipynb' step by 
+    step. Try to find own examples of built-in functions, user-defined functions 
+    and variable-length argument lists.
+
+2.) Run the Jupyter notebook 'population_and_samples.ipynb' step by step. In the 
+    bootstrap function change the parameters to create your own population, bootstrap 
+    samples and graphical representation of the bootstrapping procedure.
+
+3.) Write a function that reads both .json and .csv files to a pandas data frame 
+    without the need to specify the .read_csv() or .read_json() method 'by hand'. 
+    Hint: The function must first check the file extensions of files in your
+    specified directory. If it is a .json file then .read_json() must be used 
+    otherwise .read_csv() must be used. Use the library 'fnmatch' to check for 
+    file extension patterns. For one possible solution see Python code below:
+
+import os
+import pandas as pd
+
+# Function
+def read_multiple(path='.', csv_sep=";"):
+    """
+    Reads .csv- and .json files and returns pandas data frames
+    
+    :param path: path to working directory. Type = str
+    :param csv_sep: separator of .csv-files. Type = str
+    :return: pandas data frames one for each .csv- and .json file
+    """
+
+    # Lists to store file names
+    csv_files = []
+    json_files = []
+
+    # Check file extensions of files in your local directory
+    for file in os.listdir(path):
+
+        # .csv - files
+        try:
+            if file.split(".")[-1] == 'csv':
+                csv_files.append(file)
+                # Read and print .csv-files in list
+                for csv_file in csv_files:
+                    df_csv = pd.read_csv(file)
+                    print('.csv-file:\n', df_csv)
+        except:
+            pass
+
+        # .json - files
+        try:
+            if file.split(".")[-1] == 'json':
+                json_files.append(file)
+                # Read and print .json-files in list
+                for json_file in json_files:
+                    df_json = pd.read_json(file)
+                    print('\n.json-file:\n', df_json)
+        except:
+            pass
+     
+    
+# Function call
+read_multiple()
+
+#----------------------------------------------------------------------
+# Procedural programming: Flickr example 
+#----------------------------------------------------------------------
+
+1.) Run the Jupyter notebook 'flickr_example.ipynb' step by step.
+
+2.) Define own keywords to search for photos and run the Jupyter notebook to
+    get information about the photos and plot the photos.
+
+3.) Extent the Jupyter notebook to download photos of dogs.
+
+#----------------------------------------------------------------------
+# Procedural programming: Power Point slideset translation example
+#----------------------------------------------------------------------
+
+1.) Open the example camtasia_getting_started.pptx file in the data folder.
+
+2.) Run the Jupyter notebook 'translate_pptx.ipynb' step by step.
+
+3.) Check the quality of the translated slides.
+
+#----------------------------------------------------------------------
+# Procedural programming: Optical character recognition (OCR) example
+#----------------------------------------------------------------------
+
+1.) Run the Jupyter notebook 'tesseract_ocr_example.ipynb' step by step.
+
+2.) Use the Jupyter notebook to extract text from another receipt (in German). 
+    You can find receipts using Google image search. Save the extracted text to a file.
+
+3.) Change the Jupyter notebook to extract text from an English receipt. 
+    Note that you must change the lang='deu' parameter to lang='eng' in all 
+    functions where this parameter is listed. Save the extracted text to a file.

@@ -1,0 +1,32 @@
+ _____  _   _   ___   _      _      _____ _   _ _____  _____ 
+/  __ \| | | | / _ \ | |    | |    |  ___| \ | |  __ \|  ___|
+| /  \/| |_| |/ /_\ \| |    | |    | |__ |  \| | |  \/| |__  
+| |    |  _  ||  _  || |    | |    |  __|| . ` | | __ |  __| 
+| \__/\| | | || | | || |____| |____| |___| |\  | |_\ \| |___ 
+ \____/\_| |_/\_| |_/\_____/\_____/\____/\_| \_/\____/\____/ 
+                                                             
+
+Background:
+
+You work for a company that specializes in developing machine learning models for  
+image recognition. Your company has collected a lot of photos, and you are 
+asked to develop Python code using OOP to enrich the photo database using data 
+derived from the photos like the number of pixels, the RGB-colors, etc.
+
+# Required Python libraries
+import os
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+
+1.) Create an ImageAnalyzer class which is able to:
+- read an image (e.g. a photo in .jpg format)
+- plot the image
+- get the image size (numer of pixels in rows and columns)
+- get values of single pixels
+- plot a gray-scale version of the image
+- create a single plot showing overlapping histograms of RGB colors
+- write the RGB-color values to separate columns in a pandas data frame 
+
+2.) Analyze at different photos by using the ImageAnalyzer class. You 
+   can find such photos by using Google photo search or on Flickr.

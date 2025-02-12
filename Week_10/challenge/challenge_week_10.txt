@@ -1,0 +1,27 @@
+ _____  _   _   ___   _      _      _____ _   _ _____  _____ 
+/  __ \| | | | / _ \ | |    | |    |  ___| \ | |  __ \|  ___|
+| /  \/| |_| |/ /_\ \| |    | |    | |__ |  \| | |  \/| |__  
+| |    |  _  ||  _  || |    | |    |  __|| . ` | | __ |  __| 
+| \__/\| | | || | | || |____| |____| |___| |\  | |_\ \| |___ 
+ \____/\_| |_/\_| |_/\_____/\_____/\____/\_| \_/\____/\____/ 
+                                                             
+
+Background:
+
+You work for a company that produces computer games. Your task is to 
+create a simple agent-based model with the following settings:
+
+- The game has a quadratic model space which consists of a number of grid cells.
+- The number of grid cells in x and y direction can be defined by the user.
+- There are two agents which can randomly move in the model space.
+- The agents are shown as two grid cells and have different colors.
+- The model has a counter which counts up if agents occur in the same grid cell.
+- There is a finit number of iterations which can be pre-defined.
+- The agents and model iterations are shown in a graphic.
+- The game should run in a Jupyter notebook as a simulation.
+
+Hint: You can use the Python libraries:
+- random
+- numpy
+- matplotlib
+- IPython

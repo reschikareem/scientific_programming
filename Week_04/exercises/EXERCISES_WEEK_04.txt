@@ -1,0 +1,75 @@
+ _______   _______  ___________  _____ _____ _____ _____ _____ 
+|  ___\ \ / /  __ \|  ___| ___ \/  __ \_   _/  ___|  ___/  ___|
+| |__  \ V /| /  \/| |__ | |_/ /| /  \/ | | \ `--.| |__ \ `--. 
+|  __| /   \| |    |  __||    / | |     | |  `--. \  __| `--. \
+| |___/ /^\ \ \__/\| |___| |\ \ | \__/\_| |_/\__/ / |___/\__/ /
+\____/\/   \/\____/\____/\_| \_| \____/\___/\____/\____/\____/ 
+
+#----------------------------------------------------------------------
+# Web Scraping of car data from autoscout24.ch
+#----------------------------------------------------------------------
+
+1.) Install the free 'Web Scraper' extension in Google Chrome
+	(search in Google Web Store for 'Web Scraper Chrome')
+
+2.) Look at the intro video tutorials on:
+    https://www.youtube.com/watch?v=n7fob_XVsbY&t=7s
+
+3.) Use the the web scraper to scrape car data from autoscout24.ch
+    (all steps are explained in class)
+
+Those who cannot attent the class can use the 'webscraper_sitemap.json'
+provided in the data folder to set up the web scraper. Follow the steps below:
+
+  -> Web Scraper menu -> Create new sitemap -> Import sitemap
+	 (copy/paste the content of 'webscraper_sitemap.json') 
+  Then:
+  -> Web Scraper menu -> Sitemaps (click on you sitemap's name)
+  Then:
+  -> Web Scraper menu -> Sitemap autoscout24 -> Scrape -> Start Scraping
+  Then: 
+  -> Click on the refresh button
+  Then:
+  -> Web Scraper menu -> Sitemap autoscout24 -> Export data (.csv or .xlsx)
+
+#----------------------------------------------------------------------
+# Preparation of the autoscout24.ch data
+#----------------------------------------------------------------------
+
+1.) Run the Jupyter notebook 'autoscout24_data.ipynb' step by step.
+	
+2.) From 'Init_Regist' extract the year of manufacture
+    Hint: you can use the following command (note that 'df' is the name of the data frame)
+	
+	df['year'] = df['Init_Regist'].str.split('.').str[1].astype('Int32')
+
+3.) Calculate a new variable 'age_of_car' by using the current date
+    Hint: you can use the following commands:
+	
+	import datetime
+	today = datetime.date.today()
+	year = today.year
+    df['age_of_car'] = year - df_orig['year']
+
+#----------------------------------------------------------------------
+# Data types and built-in data structures in Python
+#----------------------------------------------------------------------
+
+1.) Run the Jupyter notebook 'data_types_and_built-in_data_structures_Python.ipynb' step by step.
+
+2.) Create a new Jupyter notebook and import the car data from the previous task to a data frame named 'df'.
+
+3.) From the colum 'Type' create a new column 'Filtered_Type' containing only the car types listed in brackets. 
+    
+    Hints:
+    - use the libraries numpy, pandas and re
+    - use the function below to extract the car type from parentheses using regex
+    - use the .apply method from pandas to apply the function
+
+    # Function to extract car type from parentheses
+    def extract_type(type_str):
+        match = re.search(r'\((.*?)\)', type_str)
+        if match:
+            return match.group(1).strip()
+        return np.nan
+

@@ -1,0 +1,101 @@
+ _______   _______  ___________  _____ _____ _____ _____ _____ 
+|  ___\ \ / /  __ \|  ___| ___ \/  __ \_   _/  ___|  ___/  ___|
+| |__  \ V /| /  \/| |__ | |_/ /| /  \/ | | \ `--.| |__ \ `--. 
+|  __| /   \| |    |  __||    / | |     | |  `--. \  __| `--. \
+| |___/ /^\ \ \__/\| |___| |\ \ | \__/\_| |_/\__/ / |___/\__/ /
+\____/\/   \/\____/\____/\_| \_| \____/\___/\____/\____/\____/ 
+
+#----------------------------------------------------------------------
+# Cellular Automata: Conway's Game of Life
+#----------------------------------------------------------------------
+
+1.) Run the Jupyter notebook 'cellular_automata_conways_game_of_life.ipynb' step by step.
+
+2.) Remember that Conway's original 'B2S23' rules are:
+    - Any live cell with fewer than two live neighbours dies.
+    - Any live cell with more than three live neighbours dies.
+    - Any live cell with two or three live neighbours lives, unchanged, to the next generation.
+    - Any dead cell with exactly three live neighbours will come to life.
+
+    Run the Game of Life by using alternative rules such as:
+    g = LLCA(C0, rule = "B2S120")
+    g = LLCA(C0, rule = "B2S130")
+    g = LLCA(C0, rule = "B1S1305")
+    g = LLCA(C0, rule = "B3678S34678")
+    g = LLCA(C0, rule = "B0123478S01234678") # black/white reversal
+
+    In addition, try to find your own rules.
+
+3.) Export the result as a text file by using the following Python code:
+
+    import numpy as np
+
+    # Run the simulation
+    N = 50
+    t = np.linspace(0., 1., N+1)
+    X, Y = np.meshgrid(t, t)
+    f = 4
+    C0 = np.sin(2. * np.pi * f * X ) * np.sin(2. * np.pi * 2 * f * Y ) > -.1
+    g = LLCA(C0, rule = "B2S23")
+
+    # Run defined number of iterations
+    for i in range(100):
+        g.iterate()
+
+    # Plot graphic
+    fig, ax = plt.subplots(figsize=(6,6))
+    ax.axis('on')
+    im = plt.imshow(g.C, interpolation = "nearest", cmap = cm.binary)
+
+    # Export the numpy array
+    np.savetxt('game_of_life.txt', g.C, fmt='%d')
+	
+#----------------------------------------------------------------------
+# Agent-based modeling: Money Agents Model
+#----------------------------------------------------------------------
+
+1.) Run the Jupyter notebook 'agent_based_modeling_money_agents.ipynb' step by step.
+
+2.) The Gini coefficient measures the extent to which the distribution of income 
+    or consumption among individuals or households within an economy deviates 
+    from a perfectly equal distribution. A Gini coefficient of 0 represents perfect 
+    equality, while a Gini coefficient of 1 implies perfect inequality. Equality 
+    is related to the well-being of the population, i.e. in a society in which
+    incomes are more equal, people are generelly happier.
+
+    Create different model simulations to answer the question which model 
+    parameters lead to high and which lead to a low inequlity.
+
+3.) Can you find model parameters which increases the Gini coefficient to a 
+    value >= 0.8 indicating very low level of inequlity?
+
+#--------------------------------------------------------------------------
+# Agent-based modeling: Forest Fire, Schelling Segregation, Swarm Behavior
+#--------------------------------------------------------------------------
+
+Note that these exercises must be accomplished on your local computer!
+
+1.) In Python, different libraries can be used to build agent-based models. 
+    Example libraries are 'mesa' and 'agentpy'. The exercises contain
+    the following simulation models:
+    - Forest Fire Simulation (mesa)
+    - Schelling's Segregation Model (mesa)
+    - Boids Flocking Model: Simulation of Swarm Behavior (agentpy)
+
+    Look at the code of these models in the respective folders.
+
+2.) To run the Forest Fire Simulation, cd into the 'forest_fire_simulation'
+    folder and type: mesa runserver. A browser window will open in which you
+    will find a menu with: Start, Step and Reset. Create different simulations 
+    with varying tree densities. After model run, close the terminal window.
+
+3.) To run Schelling's Segregation Model, cd into the 'schelling_segregation'
+    folder and type: mesa runserver. A browser window will open in which you
+    will find a menu with: Start, Step and Reset. Create different simulations 
+    with varying agent density, fraction minority and homophily. After model 
+    run, close the terminal window.
+    
+4.) To run Boids Flocking Model, open the Jupyter notebook 'swarm_behavior.ipynb'.
+    Note that this model requires the 'agentpy' library. In the section 
+    'Parameter settings for 3D simulation', change the parameters to create 
+    different simulations.

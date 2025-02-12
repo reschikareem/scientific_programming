@@ -1,0 +1,36 @@
+ _____  _   _   ___   _      _      _____ _   _ _____  _____ 
+/  __ \| | | | / _ \ | |    | |    |  ___| \ | |  __ \|  ___|
+| /  \/| |_| |/ /_\ \| |    | |    | |__ |  \| | |  \/| |__  
+| |    |  _  ||  _  || |    | |    |  __|| . ` | | __ |  __| 
+| \__/\| | | || | | || |____| |____| |___| |\  | |_\ \| |___ 
+ \____/\_| |_/\_| |_/\_____/\_____/\____/\_| \_/\____/\____/ 
+                                                             
+                                                             
+Background:
+
+A bicycle dealer has collected data about bicycles and bicycle-related products 
+from tutti.ch using the Web Scraper extension for Google Chrome. Before the data 
+can be analysed, it must be brought into the correct form. The bicycle dealer 
+has (unfortunately) no Python programming skills and asked you for help. In 
+detail you are asked to do the following with the raw data.
+
+1.) Create a Jupyter notebook, import the bicycle data to a data frame, count 
+    the number of rows and colums, look at the data types, count and remove the 
+    missing and duplicated values.
+ 
+2.) In the data frame, create a new variable 'price' with an 'int' as data type.
+    Note that it can be necessary to remove all records with empty '' price 
+    strings in this process.
+    
+3.) Create a subset of the data frame which contains only prices in the range
+    >= 200 und <= 2000 CHF.
+
+4.) Create a histogram and a boxplot to show the distribution of prices in 
+    the subset.
+
+5.) Save the name of the city / canton from the address string in a new variable
+    of the data frame.
+
+6.) Create a dictionary with all prices per city / canton.
+
+7.) Access the dictionary to show all prices in the city of Zürich.

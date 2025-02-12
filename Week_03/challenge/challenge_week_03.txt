@@ -1,0 +1,28 @@
+ _____  _   _   ___   _      _      _____ _   _ _____  _____ 
+/  __ \| | | | / _ \ | |    | |    |  ___| \ | |  __ \|  ___|
+| /  \/| |_| |/ /_\ \| |    | |    | |__ |  \| | |  \/| |__  
+| |    |  _  ||  _  || |    | |    |  __|| . ` | | __ |  __| 
+| \__/\| | | || | | || |____| |____| |___| |\  | |_\ \| |___ 
+ \____/\_| |_/\_| |_/\_____/\_____/\____/\_| \_/\____/\____/ 
+                                                             
+
+Background:
+
+Imagine you have a customer, a larger company with petrol stations 
+spread all over Europe. For a competitor analysis, the customer 
+would like to know how many petrol stations there are per operator in 
+Switzerland and which are the 5 largest operators in terms of the total number 
+of petrol stations. To solve the task you decide to use the following workflow:
+
+1.) You first look at the following website https://wiki.openstreetmap.org/wiki/Key:amenity
+    for the key:value pair which you can use to get data from OpenStretMap
+ 
+2.) Then you prepare a Jupyter notebook in which the overpass Web API is used to get the data
+    
+3.) You save the data in .json and .csv format on your local computer
+
+4.) You count the number of petrol stations per operator using pandas' .pivot_table() method
+    You sort the pivot table to identify the 5 largest operators
+
+5.) Finally, you create a map to visualize all petrol stations in Switzerland
+    In the map, use popups to provide the brand of the petrol stations.

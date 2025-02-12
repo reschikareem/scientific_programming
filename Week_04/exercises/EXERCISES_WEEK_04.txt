@@ -21,6 +21,8 @@
 Those who cannot attent the class can use the 'webscraper_sitemap.json'
 provided in the data folder to set up the web scraper. Follow the steps below:
 
+  -> In your web browser, go to:  https://www.autoscout24.ch/de
+  Then:
   -> Web Scraper menu -> Create new sitemap -> Import sitemap
 	 (copy/paste the content of 'webscraper_sitemap.json') 
   Then:

@@ -35,9 +35,19 @@
 # Text-to-SQL with LangChain
 #----------------------------------------------------------------------
 
-1.) Run the Jupyter notebook 'text_to_sql.ipynb' step by step.
+1.) Make sure that in the file ./data/credentials.json contains a valid OpenAI API-key.
+    It is provided on the course day on Moodle (week 06).
+    Replace the sk--XXXX ... string in the file with the API-key.
 
-2.) Use the SQL-agent to generate SQL-queries based on the following three questions:
+    {
+      "openai": {
+        "api_key": "sk--XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+        }
+    }
+
+2.) Run the Jupyter notebook 'text_to_sql.ipynb' step by step.
+
+3.) Use the SQL-agent to generate SQL-queries based on the following three questions:
 
     - Which is the avarage apartment price by rooms?
     - Which are the 5 cheapest apartments?
@@ -48,8 +58,18 @@
 # Augmented analytics with GPT-3.5 and Python
 #----------------------------------------------------------------------
 
-1.) Run the Jupyter notebook 'augmented_analytics.ipynb' step by step.
+1.) Make sure that in the file ./data/credentials.json contains a valid OpenAI API-key.
+    It is provided on the course day on Moodle (week 06).
+    Replace the sk--XXXX ... string in the file with the API-key.
 
-2.) Define own questions to generate Python code and data insights.
+    {
+      "openai": {
+        "api_key": "sk--XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+        }
+    }
 
-3.) Which parts work well and which not? 
+2.) Run the Jupyter notebook 'augmented_analytics.ipynb' step by step.
+
+3.) Define own questions to generate Python code and data insights.
+
+4.) Which parts work well and which not? 

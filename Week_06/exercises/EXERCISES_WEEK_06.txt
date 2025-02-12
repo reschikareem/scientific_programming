@@ -22,7 +22,7 @@
 
 4.) Test the model in the VS Code Terminal.
 
-5.) Stop the LLM with:
+5.) Quit the model:
 
     /bye
 

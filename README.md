@@ -106,8 +106,8 @@ The following video explains how this works: https://www.youtube.com/watch?v=KuB
    # Start ollama (keep Terminal open)
    ollama serve
 
-   # Import and run LLM 'Llama 2' (3.8 GB) --> open a new Terminal
-   ollama run llama2:latest
+   # Import and run LLM 'Llama 3.2' (2.0 GB) --> open a new Terminal
+   ollama run llama3.2:latest
 
    # Quit the model
    /bye

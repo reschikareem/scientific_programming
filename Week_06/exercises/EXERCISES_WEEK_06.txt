@@ -16,14 +16,13 @@
     ollama serve
     ollama list
 
-3.) Import the two LLMs: Llama2:latest (7B, 3.8GB) and Llama3.2:latest (3B, 2GB).
+3.) Import Llama3.2:latest (3B, 2GB).
     
-    ollama run llama2:latest
     ollama run llama3.2:latest
 
-4.) Test the models in the VS Code Terminal.
+4.) Test the model in the VS Code Terminal.
 
-5.) Stop the LLMs with:
+5.) Stop the LLM with:
 
     /bye
 

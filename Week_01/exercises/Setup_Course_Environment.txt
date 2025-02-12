@@ -9,11 +9,10 @@ The task for today:
     - Course repository forked
     - GitHub Codespace created based on the fork
     - All neccessary software and Python libraries are installed (see devcontainer.json & requirements.txt)
-    - Visual Studio Code settings made
+    - Visual Studio Code settings were made (display language = 'en', color scheme has been set)
     - GitHub Copilot is running in Codespaces
     - Kaggle API-key is available (needed in week 02)
     - Ollama is properly installed (needed in week 06)
-
 
 2.) Solve the challenge in the folder Week_01/challenge.
     

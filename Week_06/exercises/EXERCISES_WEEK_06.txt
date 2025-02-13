@@ -42,8 +42,8 @@
 # Text-to-SQL with LangChain
 #----------------------------------------------------------------------
 
-1.) Make sure that in the file ./data/credentials.json contains a valid OpenAI API-key.
-    It is provided on the course day on Moodle (week 06).
+1.) Make sure that the file ./data/credentials.json contains a valid API-key.
+    Use your own or the one provided on the course day on Moodle (week 06).
     Replace the sk--XXXX ... string in the file with the API-key.
 
     {
@@ -65,8 +65,8 @@
 # Augmented analytics with GPT-3.5 and Python
 #----------------------------------------------------------------------
 
-1.) Make sure that in the file ./data/credentials.json contains a valid OpenAI API-key.
-    It is provided on the course day on Moodle (week 06).
+1.) Make sure that the file ./data/credentials.json contains a valid API-key.
+    Use your own or the one provided on the course day on Moodle (week 06).
     Replace the sk--XXXX ... string in the file with the API-key.
 
     {

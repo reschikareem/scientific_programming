@@ -79,4 +79,4 @@
 
 3.) Define own questions to generate Python code and data insights.
 
-4.) Which parts work well and which not? 
+4.) Which parts work well and which not?

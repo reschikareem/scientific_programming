@@ -60,6 +60,14 @@ Make the following settings using the VS Code Command Palette (CTRL+SHIFT+P) and
 In VS Code Command Palette (CTRL+SHIFT+P):      
 * Python: Select Interpreter -> select the suggested (default) Python interpreter
 * Configure Display Language -> change to 'en' (English)
+* Preferences: Toggle between Light/Dark Themes
+
+In VS Code Settings (CTRL+,):
+* Search for Editor:Rulers -> click on 'edit in settings.json' and change the entry to:
+
+    "editor.rulers": [80],
+
+  This will add a vertical line to the editor area showing when the max. number of characters in the code is reached.
 
 ## Sync origin with upstream
 

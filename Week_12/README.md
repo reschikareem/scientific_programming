@@ -1,3 +1,3 @@
-**This Week: Workshop in class on the Development of an AI-enhanced Web Application (Part II)**
+**This Week: Workshop in class on the Development of an AI-supported Augmented Analytics Web Application (Part II)**
 
-**The Material will be provided shortly before the course starts!**
+**The material will be provided during the course!**

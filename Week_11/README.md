@@ -2,7 +2,7 @@
 
 **The material will be provided during the course!**
 
-**Project Folder Structure:**
+**Project folder structure:**
 
 project/
 │

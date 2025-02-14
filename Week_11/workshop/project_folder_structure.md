@@ -1,9 +1,3 @@
-**This Week: Workshop in class on the Development of an AI-supported Augmented Analytics Web Application (Part II)**
-
-**The material will be provided during the course!**
-
-**Project folder structure:**
-
 project/
 │
 ├── .devcontainer/
@@ -22,8 +16,8 @@ project/
 │   └── graphic.png               → Generated plots (saved here)
 │   
 ├── templates/
-│    ├── index.html                → Main HTML page
-│    ├── data.html                 → Data describtion page
-│    └── questions.html            → Example questions page
+│    ├── index.html               → Main HTML page
+│    ├── data.html                → Data describtion page
+│    └── questions.html           → Example questions page
 │
-└── requirements.txt               → File to specify the Python libraries
+└── requirements.txt              → File to specify the Python libraries

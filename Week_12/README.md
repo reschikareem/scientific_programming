@@ -1,8 +1,12 @@
 **This Week: Workshop in class on the Development of an AI-supported Augmented Analytics Web Application (Part II)**
 
+**The task is to build your own AI-supported web application.**
+
+**Note that the provided example data (car data) can be replaced by your own (properly prepared) data.**
+
 **The material is available in the folder 'workshop material' in Week_11!**
 
-**Project folder structure:**
+**Recommended project folder structure:**
 
 ```bash
 project/

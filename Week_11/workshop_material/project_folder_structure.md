@@ -1,3 +1,5 @@
+```bash
+# Project folder structure
 project/
 │
 ├── .devcontainer/
@@ -21,3 +23,4 @@ project/
 │    └── questions.html           → Example questions page
 │
 └── requirements.txt              → File to specify the Python libraries
+```

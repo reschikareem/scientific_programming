@@ -1,9 +1,10 @@
 **This Week: Workshop in class on the Development of an AI-supported Augmented Analytics Web Application (Part I)**
 
-**The material will be provided during the course!**
+**The material is available in the folder 'workshop material' in Week_11!**
 
 **Project folder structure:**
 
+```bash
 project/
 │
 ├── .devcontainer/
@@ -27,3 +28,4 @@ project/
 │    └── questions.html            → Example questions page
 │
 └── requirements.txt               → File to specify the Python libraries
+```

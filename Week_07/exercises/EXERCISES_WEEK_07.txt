@@ -70,6 +70,22 @@
     host reveals a goat behind one of the unchosen doors.
 	
 #----------------------------------------------------------------------
+# Simulating a trading strategy
+#----------------------------------------------------------------------
+
+1.) Run the Jupyter notebook 'backtesting_trading_strategy.ipynb' step by step.
+
+2.) Change the values of:
+
+    fixed_investment = 1000
+    threshold_value = 0.05
+    monthly_savings = 1000
+
+3.) Look at the effect of these changes on the result.
+
+4.) Which is the better trading strategy?
+
+#----------------------------------------------------------------------
 # Simulating a dice game
 #----------------------------------------------------------------------
 

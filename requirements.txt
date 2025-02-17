@@ -53,3 +53,4 @@ langchain-core==0.3.34
 python-pptx==1.0.2
 geopandas
 googletrans
+yfinance

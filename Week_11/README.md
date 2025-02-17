@@ -1,8 +1,8 @@
 # Project Setup & Workflow
 
-Below is a structured approach to guide your project. Adapt these steps to your specific requirements.
+Below is a structured approach to guide this workshop. Adapt these steps to your specific requirements.
 
-Note that the provided example data (car data) can be replaced by your own (properly prepared) data.
+Please use the sample data provided (car data), as this has been properly prepared.
 
 **Project folder structure:**
 
@@ -35,8 +35,9 @@ project/
 ## 1. Audit Existing Files
 
 - Configuration: Check .devcontainer/devcontainer.json and Procfile setup.
-- Backend: In your team, discuss the required functionality of app.py.
-- Data: Examine autoscout24_data.csv and ensure credentials.json is secured.
+- Backend: Discuss the required functionality of app.py in your team.
+- Data: Examine autoscout24_data.csv.
+- OpenAI API-key: Ensure credentials.json is available contains a valid API-key.
 - Frontend: Verify templates/ and static/ files for completeness.
 - Dependencies: Ensure requirements.txt includes all necessary libraries.
 
@@ -69,7 +70,7 @@ project/
 
 ## 4. Implement Backend Logic
 
-- Load Data: Read autoscout24_data.csv into a DataFrame.
+- Load Data: Read autoscout24_data.csv into a pandas DataFrame.
 - Define Routes:  
     / → index.html  
     /data → data.html  

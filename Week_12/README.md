@@ -2,6 +2,8 @@
 
 Below is a structured approach to guide this workshop. Adapt these steps to your specific requirements.
 
+The workshop template is available on: https://github.com/mario-gellrich-zhaw/scientific_programming_workshop 
+
 Please use the sample data provided (car data), as this has been properly prepared.
 
 **Project folder structure:**

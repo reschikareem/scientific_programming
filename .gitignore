@@ -31,7 +31,7 @@ dist/
 .jupyter/
 
 # Single files / solutions
-solution_challenge_week_01.ipynb
+# solution_challenge_week_01.ipynb
 solution_challenge_week_02.ipynb
 solution_challenge_week_03.ipynb
 # Titanic-Dataset.csv

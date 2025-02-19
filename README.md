@@ -74,6 +74,7 @@ In VS Code Settings (CTRL+,):
 First, make sure the upstream has been added and the origin's url is set.
 
 ```bash
+# In the VS Code Terminal type ...
 git remote -v
 
 # The output should look like (replace YOUR-USERNAME with your user name) ...

@@ -71,6 +71,22 @@ In VS Code Settings (CTRL+,):
 
 ## Sync origin with upstream
 
+First, make sure the upstream has been added and the origin's url is set.
+
+```bash
+git remote -v
+
+# The output should look like (replace YOUR-USERNAME with your user name) ...
+# origin  git@github.com:YOUR-USERNAME/scientific_programming.git (fetch)
+# origin  git@github.com:YOUR-USERNAME/scientific_programming.git (push)
+# upstream        https://github.com/mario-gellrich-zhaw/scientific_programming.git (fetch)
+# upstream        https://github.com/mario-gellrich-zhaw/scientific_programming.git (push)
+
+# If this is not set correctly, type (replace YOUR-USERNAME with your user name on GitHub) ...
+git remote add upstream https://github.com/mario-gellrich-zhaw/scientific_programming.git
+git remote set-url origin git@github.com:YOUR-USERNAME/scientific_programming.git
+```
+
 To sync your fork (origin) and GitHub Codespaces environment with the upstream repository you can use the following Git commands:
 
 ```bash

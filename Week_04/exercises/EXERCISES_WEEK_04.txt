@@ -23,6 +23,9 @@ provided in the data folder to set up the web scraper. Follow the steps below:
 
   -> In your web browser, go to:  https://www.autoscout24.ch/de
   Then:
+  -> In your Chrome Browser, open the Developer Tools (CTRL+SHIFT+I)
+     You will see the Web Scraper menu
+  Then:
   -> Web Scraper menu -> Create new sitemap -> Import sitemap
 	 (copy/paste the content of 'webscraper_sitemap.json') 
   Then:

@@ -16,7 +16,7 @@
 
 3.) Run the Jupyter notebook 'webscraping_skipass_prices.ipynb' step by step.
 
-4.) Store the data in a file 'skipass_prices.csv'.
+4.) Use pandas to filter the 5 ski resorts with the highest prices of day tickets for adults.
 
 #-----------------------------------------------------------------------------
 # Input & Output in Python

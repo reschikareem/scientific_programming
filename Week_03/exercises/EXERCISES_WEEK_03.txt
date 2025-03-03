@@ -13,12 +13,15 @@
 1.) Run the Jupyter notebook 'webscraping_skipass_prices.ipynb' step by step.
 
 2.) Use pandas to filter the 5 ski resorts with the highest prices of day tickets for adults.
+    Hint: use the .loc method
 
 3.) Run the Jupyter notebook 'webscraping_rental_apartments.ipynb' step by step.
 
-4.) Extract the numerical values of area (living area) from area_raw
+4.) Extract the numerical values of area (living area in m2) from area_raw
+    Hint: use a regular expression
 
-5.) Create a new column 'price_per_m2' and show the values in a histogram. 
+5.) Create a new column 'price_per_m2' and show the values in a histogram.
+    Hint: you can calculate the new variable based on area and price
 
 #-----------------------------------------------------------------------------
 # Input & Output in Python

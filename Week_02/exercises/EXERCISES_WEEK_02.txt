@@ -45,7 +45,8 @@
 #-----------------------------------------------------------------------------
 
 1.) Make sure that in the file ./data/kaggle.json contains a valid user name and API-key.
-    You can get one with a Kaggle account from: https://www.kaggle.com/settings
+    You can find a temporary key which is valid for the course day on Moodle (Week 02).
+    You can get your own API-key with a Kaggle account from: https://www.kaggle.com/settings
     Replace the "xxxxxxxxxxxxx" strings in the file with the user-name and API-key.
 
     {"username":"xxxxxxxxxxxxxxxxxx","key":"xxxxxxxxxxxxxxxxxxxxx"}

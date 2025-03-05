@@ -43,7 +43,7 @@ provided in the data folder to set up the web scraper. Follow the steps below:
 
 1.) Run the Jupyter notebook 'autoscout24_data.ipynb' step by step.
 	
-2.) From 'Init_Regist' extract the year of manufacture
+2.) From 'Init_Regist' extract the year of manufacture and store it in a new column.
     Hint: you can use the following command (note that 'df' is the name of the data frame)
 	
 	df['year'] = df['Init_Regist'].str.split('.').str[1].astype('Int32')
@@ -54,7 +54,7 @@ provided in the data folder to set up the web scraper. Follow the steps below:
 	import datetime
 	today = datetime.date.today()
 	year = today.year
-    df['age_of_car'] = year - df_orig['year']
+    df['age_of_car'] = year - df['year']
 
 #----------------------------------------------------------------------
 # Data types and built-in data structures in Python
@@ -64,14 +64,15 @@ provided in the data folder to set up the web scraper. Follow the steps below:
 
 2.) Create a new Jupyter notebook and import the car data from the previous task to a data frame named 'df'.
 
-3.) From the colum 'Type' create a new column 'Filtered_Type' containing only the car types listed in brackets. 
+3.) From the colum 'Type' create a new column 'Filtered_Type' containing only the car types listed in brackets.
+    (e.g.: 'Limousine', 'Cabriolet', 'Kleinwagen', etc.)
     
     Hints:
     - use the libraries numpy, pandas and re
-    - use the function below to extract the car type from parentheses using regex
+    - use the function below to extract the car type from parentheses using a regex
     - use the .apply method from pandas to apply the function
 
-    # Function to extract car type from parentheses
+    # Function to extract the car type
     def extract_type(type_str):
         match = re.search(r'\((.*?)\)', type_str)
         if match:

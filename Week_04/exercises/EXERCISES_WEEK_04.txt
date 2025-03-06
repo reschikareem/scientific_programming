@@ -67,9 +67,9 @@ provided in the data folder to set up the web scraper. Follow the steps below:
 3.) From the colum 'Type' create a new column 'Filtered_Type' containing only the car types listed in brackets.
     (e.g.: 'Limousine', 'Cabriolet', 'Kleinwagen', etc.)
     
-    Hints:
+    Hint:
     - use the libraries numpy, pandas and re
-    - use the function below to extract the car type from parentheses using a regex
+    - use the function below to extract the car type from parentheses using a regular expression (regex)
     - use the .apply method from pandas to apply the function
 
     # Function to extract the car type
@@ -79,3 +79,7 @@ provided in the data folder to set up the web scraper. Follow the steps below:
             return match.group(1).strip()
         return np.nan
 
+4.) Create a list with unique categories from the column 'Filtered_Type'.
+    Hint:
+    - use the pandas method .unique() and the function list() to create the list
+    - use GitHub Coplilot to create code that removes all unneeded items from the list

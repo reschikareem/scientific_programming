@@ -9,11 +9,11 @@
 Background:
 
 A real estate consulting company is interested in creating a data visualization 
-dashboard for analyzing apartment listings. They would like to display key performance 
-indicators (KPIs), such as the average price and average area of apartments, alongside 
-a graphical representation of the price distribution and a table with all data. The 
-company needs the dashboard to have an engaging design, including customized visuals 
-and a clean layout.
+dashboard to analyze apartment listings. They want to visualize the key performance 
+indicators performance indicators (KPIs), such as the average price and the average 
+area of the apartments, as well as a graphical representation of the price distribution 
+and a table with all the data. The company needs an appealing design for the 
+dashboard, including customized graphics and a clear layout.
 
 1.) The data are provided in the file 'apartments_data_enriched_cleaned.csv'
 

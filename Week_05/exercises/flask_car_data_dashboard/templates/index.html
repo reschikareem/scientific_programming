@@ -8,16 +8,36 @@
         body {
             background-color: black;
             color: greenyellow;
+            margin: 0;
+            padding: 0;
+        }
+        .image-container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 5px;
+            width: 80vw;
+            margin: auto;
+            align-items: center;
+        }
+        .image-container div {
+            display: flex;
+            justify-content: center;
+            align-items: left;
+            width: 80%;
+        }
+        img {
+            width: 100%;
+            display: block;
         }
     </style>
 </head>
 <body>
     <h1>Car Data Dashboard</h1>
-    <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 5px;">
-        <div><img src="/static/histogram_price.png" alt="Histogram of Price" style="width: 60%;"></div>
-        <div><img src="/static/barh_fuel_type.png" alt="Bar Chart of Fuel Types" style="width: 60%;"></div>
-        <div><img src="/static/pie_fuel_type.png" alt="Pie Chart of Fuel Types" style="width: 60%;"></div>
-        <div><img src="/static/boxplot_mileage.png" alt="Boxplot of Mileage" style="width: 60%;"></div>
+    <div class="image-container">
+        <div><img src="/static/histogram_price.png" alt="Histogram of Price"></div>
+        <div><img src="/static/barh_fuel_type.png" alt="Bar Chart of Fuel Types"></div>
+        <div><img src="/static/pie_fuel_type.png" alt="Pie Chart of Fuel Types"></div>
+        <div><img src="/static/boxplot_mileage.png" alt="Boxplot of Mileage"></div>
     </div>
 </body>
 </html>

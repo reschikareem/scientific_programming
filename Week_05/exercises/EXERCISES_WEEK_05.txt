@@ -29,8 +29,12 @@
 # Vizualization of data with Flask and Python
 #----------------------------------------------------------------------
 
-1.) Open a new Terminal and cd into the folder 'flask_car_data_dashboard'.
+1.) Open a new Terminal and cd into the folder 'flask_matplotlib_example'.
 
 2.) Run the application by typing: python app.py
 
-3.) Extent the dashboard with two additional graphics of your choice.
+3.) Open a new Terminal and cd into the folder 'flask_car_data_dashboard'.
+
+4.) Run the application by typing: python app.py
+
+5.) Try to change one or more graphics, save file app.py and update the web site.

@@ -31,10 +31,11 @@ app = Flask(__name__)
 
 # Create histogram
 plt.figure(figsize=(6, 4))
-df['price'].hist(bins=30, color='skyblue', alpha=0.7)
+df['price'].hist(bins=30, color='skyblue', alpha=1.0)
 plt.title('Histogram of Price')
 plt.xlabel('Price')
 plt.ylabel('Frequency')
+plt.grid(False)
 plt.savefig('static/histogram_price.png')
 plt.close()
 
@@ -43,7 +44,7 @@ plt.figure(figsize=(6, 4))
 df[df['fuel_type'].isin(['Elektro',
                          'Diesel',
                          'Benzin'])]['fuel_type'].value_counts().sort_values(
-    ascending=True).plot(kind='barh', color='skyblue', alpha=0.7)
+    ascending=True).plot(kind='barh', color='skyblue', alpha=1.0)
 plt.title('Number of Cars per Fuel Type')
 plt.xlabel('Count')
 plt.ylabel('Fuel Type')

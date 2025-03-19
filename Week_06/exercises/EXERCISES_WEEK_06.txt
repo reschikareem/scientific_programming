@@ -11,16 +11,20 @@
 
 1.) Make sure the machine type of your GitHub Codespaces environment is >= 16GB.
 
-2.) Open a new Terminal, start Ollama and list all available LLMs.
+2.) Open a new Terminal and start Ollama (Keep the Terminal open!)
 
     ollama serve
+    
+
+3.) Open a second Terminal and list all available LLMs.
+
     ollama list
 
 3.) Import Llama3.2:latest (3B, 2GB).
     
     ollama run llama3.2:latest
 
-4.) Test the model in the VS Code Terminal.
+4.) Test the model in the VS Code Terminal, e.g. by asking questions.
 
 5.) Quit the model:
 
@@ -32,18 +36,20 @@
 
 1.) Run the Jupyter notebook 'ollama_llms.ipynb' step by step.
 
-2.) Modify the example request.
+2.) Try to execute the generated code.
 
-3.) Change the LLM and check the performance and quality of the response.
+3.) If it does not work, modify the code (e.g. using GitHub Copilot) until it works.
 
-4.) Does it work well? Any issues?
+4.) Change the LLM and check the performance and quality of the response.
+
+5.) Does it work well? Any issues?
 
 #----------------------------------------------------------------------
 # Text-to-SQL with LangChain
 #----------------------------------------------------------------------
 
 1.) Make sure that the file ./data/credentials.json contains a valid API-key.
-    Use your own or the one provided on the course day on Moodle (week 06).
+    Use your own or the one provided on the course day on Moodle (Week 06).
     Replace the sk--XXXX ... string in the file with the API-key.
 
     {
@@ -51,6 +57,8 @@
         "api_key": "sk--XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         }
     }
+
+    Note that the API-key will only be available for the time of the course!
 
 2.) Run the Jupyter notebook 'text_to_sql.ipynb' step by step.
 
@@ -74,6 +82,8 @@
         "api_key": "sk--XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         }
     }
+
+    Note that the API-key will only be available for the time of the course!
 
 2.) Run the Jupyter notebook 'augmented_analytics.ipynb' step by step.
 

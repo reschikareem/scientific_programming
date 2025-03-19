@@ -1,10 +1,14 @@
 from flask import Flask, render_template
 import pandas as pd
+import matplotlib
 import matplotlib.pyplot as plt
 import os
 
 # Set global Matplotlib style for dark background
 plt.style.use('dark_background')
+
+# Set matplotlib backend to Agg
+matplotlib.use('Agg')
 
 # Initialize Flask app
 app = Flask(__name__)
@@ -12,6 +16,10 @@ app = Flask(__name__)
 # Load the apartment data from CSV
 @app.route('/')
 def index():
+    """Load the apartment data from CSV, calculate KPIs, 
+       and render the HTML template.
+    """
+    
     # Load the CSV file (update the path if needed)
     df = pd.read_csv('../apartments_data_enriched_cleaned.csv')
 
@@ -33,7 +41,7 @@ def index():
 
     # Customize grid, tick parameters
     plt.grid(color='gray', linestyle='--')
-    plt.tick_params(colors='greenyellow')  # Change the tick color
+    plt.tick_params(colors='greenyellow')
 
     # Save histogram to the static folder
     histogram_path = os.path.join('static', 'price_histogram.png')

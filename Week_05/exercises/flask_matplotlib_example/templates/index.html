@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Histogram Generator</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+    <h1>Histogram Generator</h1>
+
+    <form method="post">
+        <label for="obs">Observations:</label>
+        <input type="number" id="obs" name="obs" value="{{ request.form.get('obs', 100) }}" required>
+        <label for="mean">Mean:</label>
+        <input type="number" step="any" id="mean" name="mean" value="{{ request.form.get('mean', 0) }}" required>
+        <label for="stddev">Std Dev:</label>
+        <input type="number" step="any" id="stddev" name="stddev" value="{{ request.form.get('stddev', 1) }}" required>
+        <button type="submit">Generate</button>
+    </form>
+
+    {% with messages = get_flashed_messages(with_categories=true) %}
+        {% if messages %}
+            {% for category, message in messages %}
+                <p style="color: red;">{{ message }}</p>
+            {% endfor %}
+        {% endif %}
+    {% endwith %}
+
+    {% if plot_url %}
+        <img src="data:image/png;base64,{{ plot_url }}" alt="Histogram">
+    {% endif %}
+
+</body>
+</html>

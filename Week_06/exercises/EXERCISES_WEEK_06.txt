@@ -11,7 +11,7 @@
 
 1.) Make sure the machine type of your GitHub Codespaces environment is >= 16GB.
 
-2.) Open a new Terminal and start Ollama (Keep the Terminal open!).
+2.) Open a new Terminal and start the Ollama server (Keep the Terminal open!).
 
     ollama serve
     
@@ -41,7 +41,7 @@
 # Ollama, LLMs & Python
 #----------------------------------------------------------------------
 
-1.) Start Ollams again in the Terminal (Keep the Terminal open!).
+1.) Start the Ollama server again in a Terminal (Keep the Terminal open!).
 
     ollama serve
 

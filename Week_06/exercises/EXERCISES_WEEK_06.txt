@@ -60,7 +60,7 @@
 6.) Does it work well? Any issues?
 
 #----------------------------------------------------------------------
-# Text-to-SQL with LangChain
+# Text-to-SQL with OpenAI API and LangChain
 #----------------------------------------------------------------------
 
 1.) Make sure that the file ./data/credentials.json contains a valid API-key.
@@ -85,7 +85,7 @@
       only the address, rooms, area and price of these apartments!
 
 #----------------------------------------------------------------------
-# Augmented analytics with GPT-3.5 and Python
+# Augmented analytics with OpenAI API
 #----------------------------------------------------------------------
 
 1.) Make sure that the file ./data/credentials.json contains a valid API-key.

@@ -11,29 +11,33 @@
 
 1.) Make sure the machine type of your GitHub Codespaces environment is >= 16GB.
 
-2.) Open a new Terminal and start the Ollama server (Keep the Terminal open!).
+    --> if not, you can change it before you start your GitHub Codespace 
+        --> go to your Codespaces overview and click on the right side on '...'
+            --> click on 'Change machine type' and select a larger machine type  
+
+2.) Open a new VS Code Terminal and start the Ollama server (Keep the Terminal open!):
 
     ollama serve
     
-3.) Open a second Terminal and list all available LLMs.
+3.) Open a second VS Code Terminal and list all available LLMs (this should be empty):
 
     ollama list
 
-4.) Import Llama3.2:latest (3B, 2GB).
+4.) To import an LLM like Llama3.2 (# parameters: 3B, size: 2GB), type:
     
     ollama run llama3.2:latest
 
-5.) Test the model in the VS Code Terminal, e.g. by asking questions.
+5.) Test the model in the VS Code Terminal by asking questions.
 
-6.) Quit the model.
+6.) Quit the model:
 
     /bye
 
-7.) Find running ollama processes.
+7.) Find running ollama processes:
    
     ps aux | grep ollama
 
-8.) Stop all ollama processes if needed.
+8.) To stop all running ollama processes, type:
    
     pkill -f ollama
 

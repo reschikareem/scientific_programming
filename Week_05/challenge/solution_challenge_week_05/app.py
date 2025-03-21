@@ -23,9 +23,13 @@ def index():
     # Load the CSV file (update the path if needed)
     df = pd.read_csv('../apartments_data_enriched_cleaned.csv')
 
+    # Add ID column to the dataframe
+    df['id'] = range(1, len(df) + 1)
+
     # Calculate KPIs and round them
-    mean_price = round(df['price'].mean(), 2)
-    mean_area = round(df['area'].mean(), 2)
+    number_of_apartments = df.shape[0]
+    mean_price = f"{df['price'].mean():.2f}"
+    mean_area = f"{df['area'].mean():.2f}"
 
     # Plot histogram of prices (dark theme is applied globally)
     plt.figure(figsize=(10,6))
@@ -52,7 +56,8 @@ def index():
     apartments = df.to_dict(orient='records')
 
     # Render the index.html template and pass KPI data and histogram
-    return render_template('index.html', apartments=apartments, 
+    return render_template('index.html', apartments=apartments,
+                           number_of_apartments=number_of_apartments, 
                            mean_price=mean_price, 
                            mean_area=mean_area, 
                            histogram_path=histogram_path)

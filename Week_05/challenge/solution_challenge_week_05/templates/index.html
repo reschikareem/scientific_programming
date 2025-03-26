@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apartment Listings</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Apartment Listings</h1>
+    
+    <!-- Display the KPIs -->
+    <h2>KPIs</h2>
+    <p><strong>Number of Apartments:</strong> {{ number_of_apartments }}</p>
+    <p><strong>Mean Price:</strong> {{ mean_price }} CHF</p>
+    <p><strong>Mean Area:</strong> {{ mean_area }} m²</p>
+    
+    <!-- Display the histogram -->
+    <h2>Rental Prices (CHF)</h2>
+    <img src="{{ histogram_path }}" alt="Price Histogram" width="500">
+
+    <!-- Table with fixed header and scrollable body -->
+    <div class="table-container">
+        <table>
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Address</th>
+                    <th>Rooms</th>
+                    <th>Area (m²)</th>
+                    <th>Price (CHF)</th>
+                    <th>Price per m² (CHF)</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for apartment in apartments %}
+                <tr>
+                    <td>{{ apartment['id'] }}</td>
+                    <td>{{ apartment['address_raw'] }}</td>
+                    <td>{{ apartment['rooms'] }}</td>
+                    <td>{{ apartment['area'] }}</td>
+                    <td>{{ apartment['price'] }}</td>
+                    <td>{{ apartment['price_per_m2'] }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

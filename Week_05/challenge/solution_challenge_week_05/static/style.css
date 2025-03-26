@@ -1,0 +1,72 @@
+
+body {
+    background-color: #121212;
+    color: greenyellow;
+    font-family: Arial, sans-serif;
+}
+
+h1, h2 {
+    color: greenyellow;
+}
+
+p {
+    color: #00CCCC;
+    font-size: 18px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #1e1e1e;
+}
+
+table, th, td {
+    border: 1px solid #444444;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    color: greenyellow;
+}
+
+th {
+    background-color: #333333;
+    color: greenyellow;
+}
+
+tr:nth-child(even) {
+    background-color: #2c2c2c;
+}
+
+tr:nth-child(odd) {
+    background-color: #1e1e1e;
+}
+
+img {
+    border: 1px solid #444444;
+    margin-top: 20px;
+}
+
+/* Add hover effect for table rows */
+tr:hover {
+    background-color: #444444;
+}
+
+/* Table container for scrollable table */
+.table-container {
+    max-height: 350px;
+    overflow-y: auto;
+    margin-top: 20px;
+    border: 1px solid #444444;
+}
+
+.table-container table {
+    margin-top: 0;
+}
+
+.table-container thead {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}

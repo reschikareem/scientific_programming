@@ -11,39 +11,60 @@
 
 1.) Make sure the machine type of your GitHub Codespaces environment is >= 16GB.
 
-2.) Open a new Terminal, start Ollama and list all available LLMs.
+    --> if not, you can change it before you start your GitHub Codespace 
+        --> go to your Codespaces overview and click on the right side on '...'
+            --> click on 'Change machine type' and select a larger machine type  
+
+2.) Open a new VS Code Terminal and start the Ollama server (Keep the Terminal open!):
 
     ollama serve
+    
+3.) Open a second VS Code Terminal and list all available LLMs (this should be empty):
+
     ollama list
 
-3.) Import Llama3.2:latest (3B, 2GB).
+4.) To import an LLM like Llama3.2 (# parameters: 3B, size: 2GB), type:
     
     ollama run llama3.2:latest
 
-4.) Test the model in the VS Code Terminal.
+5.) Test the model in the VS Code Terminal by asking questions.
 
-5.) Quit the model:
+6.) Quit the model:
 
     /bye
+
+7.) Find running ollama processes:
+   
+    ps aux | grep ollama
+
+8.) To stop all running ollama processes, type:
+   
+    pkill -f ollama
 
 #----------------------------------------------------------------------
 # Ollama, LLMs & Python
 #----------------------------------------------------------------------
 
-1.) Run the Jupyter notebook 'ollama_llms.ipynb' step by step.
+1.) Start the Ollama server again in a Terminal (Keep the Terminal open!).
 
-2.) Modify the example request.
+    ollama serve
 
-3.) Change the LLM and check the performance and quality of the response.
+2.) Run the Jupyter notebook 'ollama_llms.ipynb' step by step.
 
-4.) Does it work well? Any issues?
+3.) Try to execute the generated code.
+
+4.) If it does not work, modify the code (e.g. using GitHub Copilot) until it works.
+
+5.) Change the LLM and check the performance and quality of the response.
+
+6.) Does it work well? Any issues?
 
 #----------------------------------------------------------------------
-# Text-to-SQL with LangChain
+# Text-to-SQL with OpenAI API and LangChain
 #----------------------------------------------------------------------
 
 1.) Make sure that the file ./data/credentials.json contains a valid API-key.
-    Use your own or the one provided on the course day on Moodle (week 06).
+    Use your own or the one provided on the course day on Moodle (Week 06).
     Replace the sk--XXXX ... string in the file with the API-key.
 
     {
@@ -51,18 +72,22 @@
         "api_key": "sk--XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         }
     }
+
+    Note that the API-key will only be available for the time of the course!
 
 2.) Run the Jupyter notebook 'text_to_sql.ipynb' step by step.
 
 3.) Use the SQL-agent to generate SQL-queries based on the following three questions:
 
-    - Which is the avarage apartment price by rooms?
+    - Which is the average apartment price by rooms?
     - Which are the 5 cheapest apartments?
     - Which are the 5 apartments with the largest area? Show
       only the address, rooms, area and price of these apartments!
 
+4.) Does it work well? Any issues?
+
 #----------------------------------------------------------------------
-# Augmented analytics with GPT-3.5 and Python
+# Augmented analytics with OpenAI API
 #----------------------------------------------------------------------
 
 1.) Make sure that the file ./data/credentials.json contains a valid API-key.
@@ -75,8 +100,16 @@
         }
     }
 
+    Note that the API-key will only be available for the time of the course!
+
 2.) Run the Jupyter notebook 'augmented_analytics.ipynb' step by step.
 
-3.) Define own questions to generate Python code and data insights.
+3.) Use the Jupyter notebook to answer the following questions:
 
-4.) Which parts work well and which not?
+    - Which is the most expensive apartment?
+    - How many apartments are available per number of rooms?
+    - Which is the average area per m2 for apartments with 4.5 rooms?
+    - How many apartments are available in the city of Zürich?
+    - Which ist the cheapest apartment in the city of Winterthur?
+
+4.) Does it work well? Any issues?

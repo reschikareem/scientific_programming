@@ -11,15 +11,16 @@
 
 1.) Run the Jupyter notebook 'conditional_statements_loops_Python.ipynb' step by step.
 
-2.) In the Jupyter notebook section 'Practical examples using the cars data set'
-    define e new variable with the following price categories:
+2.) In the Jupyter notebook section 'Practical examples using the cars data set', write
+    a function with conditional statements and use the .apply() method from the pandas
+    library to create new variable 'Price_Categories' with the following price categories:
     - cheap (with prices < 25000)
     - normal (with prices >= 25000 & prices < 45000)
     - expensive (with prices >= 45000)
 
 3.) In the Jupyter notebook section 'Practical examples using OpenStreetMap data'
-    extract the following information from shops (if available) and write it to
-    a data frame:
+    use a for loop to extract the following information from shops and write it 
+    to a data frame:
     - addr:city
     - addr:country
     - addr:housenumber
@@ -64,7 +65,7 @@
     plt.grid(linestyle='-', linewidth=0.1)
     plt.show()
 
-3.) In the line chart above, change the number of trials to 5000 and the 
+3.) In the Python code above, change the number of trials to 5000 and the 
     step width to 5. Based on the line chart, answer the question, whether it 
     would make sense to change your initially choosen door after the gameshow 
     host reveals a goat behind one of the unchosen doors.
@@ -75,7 +76,7 @@
 
 1.) Run the Jupyter notebook 'backtesting_trading_strategy.ipynb' step by step.
 
-2.) Change the values of:
+2.) Modify the values of:
 
     fixed_investment = 1000
     threshold_value = 0.05

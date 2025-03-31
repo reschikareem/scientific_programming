@@ -13,7 +13,7 @@
 
 2.) In the Jupyter notebook section 'Practical examples using the cars data set', write
     a function with conditional statements and use the .apply() method from the pandas
-    library to call the function and create new variable 'Price_Category' with the 
+    library to call the function and create a new variable 'Price_Category' with the 
     following price categories:
     - cheap (with prices < 25000)
     - normal (with prices >= 25000 & prices < 45000)

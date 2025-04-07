@@ -103,3 +103,16 @@ read_multiple()
 3.) Change the Jupyter notebook to extract text from an English receipt. 
     Note that you must change the lang='deu' parameter to lang='eng' in all 
     functions where this parameter is listed. Save the extracted text to a file.
+
+#----------------------------------------------------------------------
+# Procedural programming: LLM + RAG
+#----------------------------------------------------------------------
+
+1.) Get the OpenAI key from the credentials.json file on Moodle.
+
+2.) Run the Jupyter notebook 'retrieval_augmented_generation.ipynb' step by step.
+
+3.) Use the Jupyter notebook to ask questions about the Volkswagen Group
+    Annual Report 2023, provided in the .pdf file './data/entire-vw-ar23.pdf'.
+
+4.) Use LLM + RAG based on your own .pdf file.

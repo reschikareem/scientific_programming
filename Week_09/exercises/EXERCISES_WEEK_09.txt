@@ -9,7 +9,7 @@
 # OOP examples with Python: Working with classes and methods in Python
 #----------------------------------------------------------------------
 
-1.) Run the Jupyter notebook 'object_oriented_programming_OOP_Python.ipynb' step 
+1.) Run the Jupyter notebook 'object_oriented_programming_OOP.ipynb' step 
     by step and try to understand what the Python code does. Read the explanations 
     in the Jupyter notebook. The goal is that you know and understand the following
     terms & concepts:
@@ -70,7 +70,7 @@
 
 1.) Run the Jupyter notebook 'reinforcement_learning.ipynb' step by step.
 
-3.) In this agent-based model example, we have two different classes:
+2.) In this agent-based model example, we have two different classes:
 
     - State class
     - Agent class
@@ -80,19 +80,26 @@
     https://towardsdatascience.com/reinforcement-learning-implement-grid-world-from-scratch-c5963765ebff
     
 
-2.) Change the model parameters in the Jupyter notebook. Look at how 
+3.) Change the model parameters in the Jupyter notebook. Look at how 
     the results of the model change depending on the parameter settings.
 	
 #----------------------------------------------------------------------
 # OOP examples with Python: Animations
 #----------------------------------------------------------------------
 
-Note that these exercises must be accomplished on your local computer!
-
-1.) Run the Jupyter notebook 'turtle_race_OOP_example_Python.ipynb' step 
+1.) Run the Jupyter notebook 'turtle_race_OOP_example.ipynb' step 
     by step. In class, we will make a deep dive into this OOP example 
     and discuss single code lines.
 
 2.) Use the Turtle race example and add additional turtles. Note that, currently, 
     you must make changes of the position of text and lenght of the finish-lines
     by hand, if you add additional turtles.
+
+#----------------------------------------------------------------------
+# OOP examples with Python: Simulations
+#----------------------------------------------------------------------
+
+1.) Run the Jupyter notebook 'infection_model_OOP_example.ipynb' step 
+    by step.
+
+2.) Change model parameters and look how the simulation results change. 

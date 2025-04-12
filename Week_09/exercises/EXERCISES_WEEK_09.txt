@@ -102,4 +102,4 @@
 1.) Run the Jupyter notebook 'infection_model_OOP_example.ipynb' step 
     by step.
 
-2.) Change model parameters and look how the simulation results change. 
+2.) Change model parameters and look how the simulation results change.

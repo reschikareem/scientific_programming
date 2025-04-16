@@ -60,7 +60,7 @@
         - modify the attribute 'fuel' directly
         - call the .drive() method
         - call the .add_fuel() method at least two times
-        - create a ElectricVehicle class that inherits from the Vehicle class
+        - create an ElectricVehicle class that inherits from the Vehicle class
         - use the ElectricVehicle child class to demonstrate the overriding of 
           parent methods
 

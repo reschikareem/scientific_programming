@@ -22,8 +22,8 @@
     - @classmethod
     - @staticmethod
     - the role of '__init__()'
-    - the role of 'super()' (returns an object representing the parent class)
     - the role of 'self'
+    - the role of 'super()' (returns an object representing the parent class)
     - class variables versus instance variables
     - class attributes versus instance attributes
     - parameters in classes and methods
